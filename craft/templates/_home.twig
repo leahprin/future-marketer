@@ -1,0 +1,9 @@
+{% extends "_layout" %}
+
+{% block content %}
+
+	{% for entry in craft.entries.section('posts').find() %}
+			{% include '_elements/card' %}
+	{% endfor %}
+
+{% endblock %}

@@ -1,0 +1,26 @@
+{% extends '_helpers/variables' %}
+
+{# ===============
+   UNIVERSAL CARD
+   =============== #}
+
+{% block content  %}
+
+<article class="card {{ cardType }}">
+	<a href="{{link}}" class="link">
+		<div class="card__content">
+			<p class="channel">{{ channel }}</p>
+			{% if cardType == 'social' %}
+				<p class="text">{{ text|striptags[:120] ~ '...' }}</p>
+				<p class="author">{{ network }} @{{ author }}</p>
+			{% elseif cardType == 'article' %}
+				<h3 class="headline">{{ headline }}</h3>
+				<p class="text">{{ text|striptags[:120] ~ '...' }}</p>
+				<p class="author">By {{ author }}</p>
+			{% endif %}
+		</div>
+		<div class="image" style="background-image: url('{{ image }}'); height: 200px; background-size: cover;"></div>
+	</a>
+</article>
+<hr />
+{% endblock %}
