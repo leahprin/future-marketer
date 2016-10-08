@@ -29,7 +29,7 @@ More info: http://twig.sensiolabs.org/doc/tags/set.html #}
 	{% set socialLink = entry.socialLink %}
 
 {# ARTICLE Variables #}
-{% elseif entry.type == "article" %}
+{% elseif article.articleId > 0 %}
 	{% set cardType = 'article' %}
 	{% set headline = entry.title %}
 	{% set author = entry.author.fullName %}
