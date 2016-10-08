@@ -1,11 +1,12 @@
 {% extends "layouts/main.twig" %}
 
-{# {{ set(this, 'title', _Blog.getBlogTitle()) }} #}
+{{ set(this, 'title', _Blog.getBlogTitle()) }}
+{% set articlesArr = _Blog.getBlogFeed({'limit': limit, 'offset': 0}) %}
 {% set articles = articlesArr.articles %}
 
 {% block content %}
 
-	<h1>hello world2</h1>
+	<h1>hello world4</h1>
 
 	{% for entry in articles %}
 			{% include '_elements/card' %}
