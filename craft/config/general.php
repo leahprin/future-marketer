@@ -7,6 +7,10 @@
  * You can see a list of the default settings in craft/app/etc/config/defaults/general.php
  */
 
+define('URI_SCHEME',  ( isset($_SERVER['HTTPS'] ) ) ? "https://" : "http://" );
+define('BASE_URL',    URI_SCHEME . $_SERVER['SERVER_NAME'] . '/');
+define('BASE_PATH', 	  realpath(dirname(__FILE__) . '/../') . '/');
+
 return array(
 
 	'*' => array(
@@ -15,8 +19,8 @@ return array(
 
 	'.dev' => array(
 			'environmentVariables' => array(
-					'basePath' => '/Users/rick/dev/cogs-themes/cog-boilerplate-craft/',
-					'baseUrl'  => 'http://cog-boilerplate-craft.dev/',
+					'basePath' =>  BASE_PATH,
+					'baseUrl'  => BASE_URL,
 					'userSessionDuration' => false,
 					'omitScriptNameInUrls' => true,
 			)

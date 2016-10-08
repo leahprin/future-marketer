@@ -1,7 +1,8 @@
 <?php
 
 // Path to your craft/ folder
-$craftPath = '../craft';
+$craftPath = 'craft';
+define('CRAFT_TEMPLATES_PATH', ".");
 
 // Do not edit below this line
 $path = rtrim($craftPath, '/').'/app/index.php';
