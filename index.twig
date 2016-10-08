@@ -3,13 +3,13 @@
 {% block content %}
 
 {{ set(this, 'title', _Blog.getBlogTitle()) }}
-{% set articlesArr = _Blog.getBlogFeed({'limit': limit, 'offset': 0}) %}
+{% set articlesArr = _Blog.getBlogFeed({'limit': 30, 'offset': 0}) %}
 {% set articles = articlesArr.articles %}
 
 	<h1>hello world5</h1>
 
 	{% for entry in articles %}
-			{% include '_elements/card' %}
+			{% include '_elements/card.twig' %}
 	{% endfor %}
 
 
