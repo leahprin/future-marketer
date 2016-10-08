@@ -1,9 +1,11 @@
-{% extends "layout" %}
+{% extends "_layout.twig" %}
 
 {% block content %}
 
-	{% for entry in craft.entries.section('posts').find() %}
+	{# {% for entry in craft.entries.section('posts').find() %}
 			{% include '_elements/card' %}
-	{% endfor %}
+	{% endfor %} #}
+
+	hello world
 
 {% endblock %}
