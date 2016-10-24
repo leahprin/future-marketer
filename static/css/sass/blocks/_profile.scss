@@ -1,0 +1,42 @@
+.profile {
+  &__header {
+    width:100%;
+  }
+  &__background {
+    height: 470px;
+    background-image: linear-gradient(-134deg, #A8C4D0 0%, #7396A5 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__heading {
+    color: white;
+    text-transform: capitalize;
+  }
+}
+
+.user-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  position: relative;
+  bottom: 70px;
+  padding: 0 10px;
+  text-align: center;
+  @include tablet {
+    padding: 0;
+  }
+  &__image {
+    width:140px;
+    height: 140px;
+  }
+  &__name {
+    text-align: center;
+    @include text-sm($font-multiplier: 0.78, $color: #4A4A4A, $font-weight: 700);
+    position: relative;
+    margin-top: 4px;
+  }
+  .user-header__share {
+    margin-top: 10px;
+  }
+}

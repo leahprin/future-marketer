@@ -1,0 +1,1477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4ab9150a-17e8-4ef4-b0ea-4ee1829fd62a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/craft/db/cog-boilerplate-craft_161006_045605_v2.6.2945.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/craft-media/_1000x1000_crop_center-center_60/aerial.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/craft-media/_1000x1000_crop_center-center_60/coffee.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/craft-media/_1000x1000_crop_center-center_60/dream-coat.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/craft-media/_1000x1000_crop_center-center_60/drinking.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/craft-media/_1000x1000_crop_center-center_60/fence-girl.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/craft-media/_1000x1000_crop_center-center_60/flowers.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/craft-media/_1000x1000_crop_center-center_60/ice.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/craft-media/_1000x1000_crop_center-center_60/man-mountains.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/craft-media/_1000x1000_crop_center-center_60/scooter.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/craft-media/_1580x500_crop_center-center_60/aerial.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/craft-media/_1580x500_crop_center-center_60/coffee.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/craft-media/_1580x500_crop_center-center_60/dream-coat.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/craft-media/_1580x500_crop_center-center_60/drinking.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/craft-media/_1580x500_crop_center-center_60/fence-girl.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/craft-media/_1580x500_crop_center-center_60/flowers.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/craft-media/_1580x500_crop_center-center_60/ice.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/craft-media/_1580x500_crop_center-center_60/scooter.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/craft-media/_1580x500_crop_center-center_85/aerial.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/craft-media/_1580x500_crop_center-center_85/coffee.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/craft-media/_1580x500_crop_center-center_85/dream-coat.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/craft-media/_1580x500_crop_center-center_85/drinking.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/craft-media/_1580x500_crop_center-center_85/fence-girl.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/craft-media/_1580x500_crop_center-center_85/flowers.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/craft-media/_1580x500_crop_center-center_85/ice.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/craft-media/_1580x500_crop_center-center_85/scooter.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/craft-media/_400x400_crop_center-center_60/aerial.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/craft-media/_400x400_crop_center-center_60/coffee.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/craft-media/_400x400_crop_center-center_60/dream-coat.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/craft-media/_400x400_crop_center-center_60/drinking.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/craft-media/_400x400_crop_center-center_60/fence-girl.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/craft-media/_400x400_crop_center-center_60/flowers.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/craft-media/_400x400_crop_center-center_60/scooter.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/fonts/bootstrap/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/fonts/bootstrap/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/fonts/bootstrap/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/fonts/bootstrap/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/font-awesome-4.6.3/stylesheets/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/font-awesome-4.6.3/stylesheets/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/font-awesome-4.6.3/stylesheets/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/font-awesome-4.6.3/stylesheets/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/font-awesome-4.6.3/stylesheets/fonts/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/background-login.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/data/avatar-01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/data/avatar-02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/data/avatar-03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/data/avatar-04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/data/avatar-05.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/data/avatar-06.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/data/avatar-07.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/data/avatar-08.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/data/background-01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/data/background-02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/data/background-03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/data/background-04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/data/background-05.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/data/background-06.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/data/background-07.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/data/background-08.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/data/background-09.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/data/background-10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/data/background-11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/data/background-12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/data/background-13.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/data/background-15.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/data/background-16.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/data/background-17.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/data/background-18.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/data/background-banner-01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/data/thumbnail-full-article-01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/data/video.mp4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/data/video.ogg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/data/video.webm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/data/youtube-01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/favicon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/ie/browser_chrome.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/ie/browser_firefox.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/ie/browser_ie.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/ie/browser_opera.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/ie/browser_safari.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/login-form-arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/spritemap.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/spritemap@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/uploadsprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/uploadsprite@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/dropzone/images/spritemap.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/dropzone/images/spritemap@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/dropzone/upload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.fancybox/demo/1_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.fancybox/demo/1_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.fancybox/demo/2_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.fancybox/demo/2_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.fancybox/demo/3_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.fancybox/demo/3_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.fancybox/demo/4_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.fancybox/demo/4_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.fancybox/demo/5_b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.fancybox/demo/5_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.fancybox/source/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.fancybox/source/fancybox_loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.fancybox/source/fancybox_loading@2x.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.fancybox/source/fancybox_overlay.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.fancybox/source/fancybox_sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.fancybox/source/fancybox_sprite@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.fancybox/source/helpers/fancybox_buttons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.fancybox/sprite.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.noty-2.3.8/demo/font-awesome/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.noty-2.3.8/demo/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.noty-2.3.8/demo/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.noty-2.3.8/demo/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/cog-boilerplate-craft.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_elements/_admin-actions.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_elements/_banner.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_elements/_footer.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_elements/_header.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_elements/_javascript.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/craft/db/cog-boilerplate-craft_161006_045605_v2.6.2945.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulpfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/_application.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/_layout.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/_reset.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/blocks/_article.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/blocks/_blog.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/blocks/_button.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/blocks/_card.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/blocks/_contact.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/blocks/_footer.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/blocks/_header.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/blocks/_modal.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/blocks/_profile.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/blocks/_responsive-navigation.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/blocks/_search.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/blocks/_slides.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/blocks/_tooltip.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/blocks/_user_posts.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/bootstrap/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/bootstrap/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/bootstrap/mixins/_alerts.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/bootstrap/mixins/_background-variant.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/bootstrap/mixins/_border-radius.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/bootstrap/mixins/_buttons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/bootstrap/mixins/_center-block.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/bootstrap/mixins/_clearfix.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/bootstrap/mixins/_forms.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/bootstrap/mixins/_gradients.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/bootstrap/mixins/_grid-framework.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/bootstrap/mixins/_grid.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/bootstrap/mixins/_hide-text.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/bootstrap/mixins/_image.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/bootstrap/mixins/_labels.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/bootstrap/mixins/_list-group.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/bootstrap/mixins/_nav-divider.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/bootstrap/mixins/_nav-vertical-align.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/bootstrap/mixins/_opacity.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/bootstrap/mixins/_pagination.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/bootstrap/mixins/_panels.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/bootstrap/mixins/_progress-bar.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/bootstrap/mixins/_reset-filter.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/bootstrap/mixins/_resize.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/bootstrap/mixins/_responsive-visibility.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/bootstrap/mixins/_size.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/bootstrap/mixins/_tab-focus.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/bootstrap/mixins/_table-row.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/bootstrap/mixins/_text-emphasis.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/bootstrap/mixins/_text-overflow.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/bootstrap/mixins/_vendor-prefixes.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/ie/_ie.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/ie/_ie8.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/index.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/index.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/_owl.carousel.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/_slick.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/fonts/bootstrap/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/_bootstrap-compass.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/_bootstrap-mincer.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/_bootstrap-sprockets.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/_bootstrap.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/_alerts.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/_badges.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/_breadcrumbs.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/_button-groups.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/_buttons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/_carousel.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/_close.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/_code.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/_component-animations.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/_dropdowns.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/_forms.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/_glyphicons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/_grid.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/_input-groups.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/_jumbotron.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/_labels.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/_list-group.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/_media.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/_modals.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/_navbar.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/_navs.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/_normalize.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/_pager.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/_pagination.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/_panels.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/_popovers.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/_print.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/_progress-bars.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/_responsive-embed.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/_responsive-utilities.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/_scaffolding.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/_tables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/_theme.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/_thumbnails.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/_tooltip.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/_type.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/_utilities.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/_wells.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/mixins/_alerts.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/mixins/_background-variant.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/mixins/_border-radius.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/mixins/_buttons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/mixins/_center-block.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/mixins/_clearfix.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/mixins/_forms.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/mixins/_gradients.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/mixins/_grid-framework.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/mixins/_grid.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/mixins/_hide-text.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/mixins/_image.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/mixins/_labels.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/mixins/_list-group.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/mixins/_nav-divider.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/mixins/_nav-vertical-align.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/mixins/_opacity.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/mixins/_pagination.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/mixins/_panels.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/mixins/_progress-bar.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/mixins/_reset-filter.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/mixins/_resize.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/mixins/_responsive-visibility.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/mixins/_size.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/mixins/_tab-focus.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/mixins/_table-row.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/mixins/_text-emphasis.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/mixins/_text-overflow.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/bootstrap/stylesheets/bootstrap/mixins/_vendor-prefixes.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/dropzone/stylesheets/_dropzone.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/font-awesome-4.6.3/stylesheets/_animated.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/font-awesome-4.6.3/stylesheets/_bordered-pulled.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/font-awesome-4.6.3/stylesheets/_core.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/font-awesome-4.6.3/stylesheets/_fixed-width.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/font-awesome-4.6.3/stylesheets/_icons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/font-awesome-4.6.3/stylesheets/_larger.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/font-awesome-4.6.3/stylesheets/_list.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/font-awesome-4.6.3/stylesheets/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/font-awesome-4.6.3/stylesheets/_path.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/font-awesome-4.6.3/stylesheets/_rotated-flipped.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/font-awesome-4.6.3/stylesheets/_screen-reader.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/font-awesome-4.6.3/stylesheets/_stacked.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/font-awesome-4.6.3/stylesheets/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/font-awesome-4.6.3/stylesheets/font-awesome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/font-awesome-4.6.3/stylesheets/font-awesome.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/font-awesome-4.6.3/stylesheets/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/sass/lib/zoom.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/action-bookmark.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/action-comment.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/action-like.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/arrow-down-black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/arrow-down.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/arrow-next-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/arrow-previous-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/bookmark.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/close-modal.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/cog.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/comment-icon.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/editor/edit.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/editor/hide.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/editor/move.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/editor/pin.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/error.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/facebook-footer.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/facebook-white-green.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/facebook-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/facebook-yellow.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/facebook.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/follow.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/google+-footer.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/google-plus-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/google-plus.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/linkedin-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/linkedin.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/logo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/mail.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/menu-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/menu.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/notifications.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/paragraph.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/plus-circle.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/profile.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/search-magnifying-glass.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/search-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/search.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/share-icon.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/share-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/share.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/twitter-footer.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/twitter-white-green.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/twitter-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/twitter-yellow.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/twitter.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/unfollow.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/youtube-footer.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/youtube.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/loading.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/logo-phone.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/logo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/madeline-logo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/tooltip.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/uploadsprite.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/dev/_article-templates.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/dev/auth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/dev/common.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/dev/home.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/dev/search.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/dev/user-articles.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/dev/user-profile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/dropzone/build.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/dropzone/css/basic.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/dropzone/css/dropzone.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/dropzone/css/stylus/basic.styl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/dropzone/css/stylus/dropzone.styl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/dropzone/delete.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/dropzone/dropzone.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/dropzone/dropzone.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/handlebars-v4.0.5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/handlebars.runtime.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery.lazy-load-google-maps.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery.simplemodal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/bootstrap-modal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/bootstrap-modalmanager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/bootstrap/js/bootstrap-extend.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/bootstrap/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery-ui/jquery-ui-1.10.1.custom.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery-ui/jquery-ui-1.10.1.custom.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.fancybox/.gitattributes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.fancybox/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.fancybox/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.fancybox/demo/ajax.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.fancybox/demo/iframe.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.fancybox/demo/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.fancybox/lib/jquery-1.10.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.fancybox/lib/jquery-1.9.0.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.fancybox/lib/jquery.mousewheel-3.0.6.pack.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.fancybox/source/helpers/jquery.fancybox-buttons.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.fancybox/source/helpers/jquery.fancybox-buttons.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.fancybox/source/helpers/jquery.fancybox-media.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.fancybox/source/helpers/jquery.fancybox-thumbs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.fancybox/source/helpers/jquery.fancybox-thumbs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.fancybox/source/jquery.fancybox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.fancybox/source/jquery.fancybox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.fancybox/source/jquery.fancybox.pack.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.noty-2.3.8/Gruntfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.noty-2.3.8/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.noty-2.3.8/README.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.noty-2.3.8/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.noty-2.3.8/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.noty-2.3.8/demo/allLayouts.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.noty-2.3.8/demo/allTypes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.noty-2.3.8/demo/animate.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.noty-2.3.8/demo/api.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.noty-2.3.8/demo/buttons.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.noty-2.3.8/demo/consumingAlert.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.noty-2.3.8/demo/customContainer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.noty-2.3.8/demo/font-awesome/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.noty-2.3.8/demo/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.noty-2.3.8/demo/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.noty-2.3.8/demo/issue302.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.noty-2.3.8/demo/jquery-1.7.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.noty-2.3.8/demo/jquery-1.8.0.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.noty-2.3.8/demo/killer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.noty-2.3.8/demo/notification_html.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.noty-2.3.8/demo/themeBootstrap.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.noty-2.3.8/demo/themeCss.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.noty-2.3.8/demo/usingMaxVisible.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.noty-2.3.8/demo/usingWithAnimate.css.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.noty-2.3.8/demo/usingWithButtons.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.noty-2.3.8/demo/usingWithButtons2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.noty-2.3.8/demo/usingWithModal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.noty-2.3.8/demo/usingWithOldOptions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.noty-2.3.8/js/noty/jquery.noty.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.noty-2.3.8/js/noty/layouts/bottom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.noty-2.3.8/js/noty/layouts/bottomCenter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.noty-2.3.8/js/noty/layouts/bottomLeft.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.noty-2.3.8/js/noty/layouts/bottomRight.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.noty-2.3.8/js/noty/layouts/center.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.noty-2.3.8/js/noty/layouts/centerLeft.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.noty-2.3.8/js/noty/layouts/centerRight.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.noty-2.3.8/js/noty/layouts/inline.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.noty-2.3.8/js/noty/layouts/top.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.noty-2.3.8/js/noty/layouts/topCenter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.noty-2.3.8/js/noty/layouts/topLeft.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.noty-2.3.8/js/noty/layouts/topRight.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.noty-2.3.8/js/noty/packaged/jquery.noty.packaged.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.noty-2.3.8/js/noty/packaged/jquery.noty.packaged.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.noty-2.3.8/js/noty/promise.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.noty-2.3.8/js/noty/themes/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.noty-2.3.8/js/noty/themes/default.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.noty-2.3.8/js/noty/themes/relax.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.noty-2.3.8/noty.jquery.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.noty-2.3.8/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/additional-methods.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/additional-methods.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/jquery.validate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/jquery.validate.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_ar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_ar.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_bg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_bg.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_bn_BD.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_bn_BD.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_ca.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_cs.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_da.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_da.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_de.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_el.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_el.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_es.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_es_AR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_es_AR.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_es_PE.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_es_PE.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_et.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_et.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_eu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_eu.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_fa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_fa.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_fi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_fi.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_fr.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_ge.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_ge.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_gl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_gl.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_he.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_he.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_hr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_hr.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_hu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_hu.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_hy_AM.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_hy_AM.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_id.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_id.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_is.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_is.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_it.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_it.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_ja.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_ja.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_ka.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_ka.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_kk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_kk.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_ko.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_ko.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_lt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_lt.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_lv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_lv.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_mk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_mk.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_my.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_my.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_nl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_nl.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_no.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_no.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_pl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_pl.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_pt_BR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_pt_BR.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_pt_PT.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_pt_PT.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_ro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_ro.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_ru.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_si.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_si.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_sk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_sk.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_sl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_sl.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_sr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_sr.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_sr_lat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_sr_lat.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_sv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_sv.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_th.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_th.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_tj.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_tj.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_tr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_tr.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_uk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_uk.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_vi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_vi.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_zh.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_zh.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_zh_TW.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/messages_zh_TW.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/methods_de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/methods_de.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/methods_es_CL.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/methods_es_CL.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/methods_fi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/methods_fi.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/methods_nl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/methods_nl.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/methods_pt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.validate/localization/methods_pt.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/waypoint/.eslintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/waypoint/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/waypoint/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/waypoint/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/waypoint/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/waypoint/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/waypoint/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/waypoint/gulpfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/waypoint/lib/jquery.waypoints.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/waypoint/lib/jquery.waypoints.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/waypoint/lib/noframework.waypoints.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/waypoint/lib/noframework.waypoints.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/waypoint/lib/shortcuts/infinite.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/waypoint/lib/shortcuts/infinite.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/waypoint/lib/shortcuts/inview.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/waypoint/lib/shortcuts/inview.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/waypoint/lib/shortcuts/sticky.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/waypoint/lib/shortcuts/sticky.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/waypoint/lib/waypoints.debug.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/waypoint/lib/zepto.waypoints.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/waypoint/lib/zepto.waypoints.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/waypoint/licenses.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/waypoint/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/waypoint/src/adapters/jquery-zepto-fn-extension.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/waypoint/src/adapters/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/waypoint/src/adapters/noframework.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/waypoint/src/adapters/zepto.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/waypoint/src/context.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/waypoint/src/debug.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/waypoint/src/group.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/waypoint/src/shortcuts/infinite.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/waypoint/src/shortcuts/inview.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/waypoint/src/shortcuts/sticky.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/waypoint/src/waypoint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/waypoint/test/adapter-fn-spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/waypoint/test/context-spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/waypoint/test/debug-spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/waypoint/test/fixtures/infinite.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/waypoint/test/fixtures/standard.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/waypoint/test/fixtures/sticky.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/waypoint/test/group-spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/waypoint/test/infinite-spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/waypoint/test/inview-spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/waypoint/test/lib/coffee-script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/waypoint/test/lib/jasmine-html.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/waypoint/test/lib/jasmine-jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/waypoint/test/lib/jasmine.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/waypoint/test/lib/jasmine.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/waypoint/test/lib/require.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/waypoint/test/lib/testloader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/waypoint/test/settings.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/waypoint/test/sticky-spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/waypoint/test/waypoint-spec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/plugins/waypoint/testem.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/share/css/social-share.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/share/js/rrssb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/share/js/rrssb.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/share/scss/rrssb.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/zoom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user-posts.twig" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_helpers/variables-cogs.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/craft/db/cog-boilerplate-craft_161008_031853_v2.6.2945.zip" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/media/Thumbnail.png" afterPath="$PROJECT_DIR$/static/craft-media/Thumbnail.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/media/aerial.jpeg" afterPath="$PROJECT_DIR$/static/craft-media/aerial.jpeg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/media/coffee.jpeg" afterPath="$PROJECT_DIR$/static/craft-media/coffee.jpeg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/media/dream-coat.jpeg" afterPath="$PROJECT_DIR$/static/craft-media/dream-coat.jpeg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/media/drinking.jpeg" afterPath="$PROJECT_DIR$/static/craft-media/drinking.jpeg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/media/fence-girl.jpeg" afterPath="$PROJECT_DIR$/static/craft-media/fence-girl.jpeg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/media/flowers.jpeg" afterPath="$PROJECT_DIR$/static/craft-media/flowers.jpeg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/media/hipster.jpeg" afterPath="$PROJECT_DIR$/static/craft-media/hipster.jpeg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/media/ice.jpeg" afterPath="$PROJECT_DIR$/static/craft-media/ice.jpeg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/media/man-mountains.jpeg" afterPath="$PROJECT_DIR$/static/craft-media/man-mountains.jpeg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/media/mountains.jpeg" afterPath="$PROJECT_DIR$/static/craft-media/mountains.jpeg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/static/media/scooter.jpeg" afterPath="$PROJECT_DIR$/static/craft-media/scooter.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_elements/card.twig" afterPath="$PROJECT_DIR$/_elements/card.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_elements/disqus.twig" afterPath="$PROJECT_DIR$/_elements/disqus.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_elements/social-modal.twig" afterPath="$PROJECT_DIR$/_elements/social-modal.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_helpers/variables.twig" afterPath="$PROJECT_DIR$/_helpers/variables.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/article.twig" afterPath="$PROJECT_DIR$/article.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/channel.twig" afterPath="$PROJECT_DIR$/channel.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact-us.twig" afterPath="$PROJECT_DIR$/contact-us.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/craft/config/db.php" afterPath="$PROJECT_DIR$/craft/config/db.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/craft/config/general.php" afterPath="$PROJECT_DIR$/craft/config/general.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.twig" afterPath="$PROJECT_DIR$/index.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/layouts/main.twig" afterPath="$PROJECT_DIR$/layouts/main.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/posts.twig" afterPath="$PROJECT_DIR$/posts.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profile.twig" afterPath="$PROJECT_DIR$/profile.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/search.twig" afterPath="$PROJECT_DIR$/search.twig" />
+    </list>
+    <ignored path="cog-boilerplate-craft.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="cog-boilerplate-craft" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="_modal.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/sass/blocks/_modal.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="653">
+              <caret line="485" column="0" selection-start-line="485" selection-start-column="0" selection-end-line="485" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cog-boilerplate-craft_161006_045605_v2.6.2945.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/craft/db/cog-boilerplate-craft_161006_045605_v2.6.2945.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="general.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/craft/config/general.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/craft/config/db.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/craft/config/routes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_card.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/css/sass/blocks/_card.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="122" column="11" selection-start-line="122" selection-start-column="11" selection-end-line="122" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/sass/index.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-49">
+              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="article.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/article.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="104" selection-start-line="12" selection-start-column="104" selection-end-line="12" selection-end-column="104" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user-posts.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user-posts.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="83">
+              <caret line="50" column="87" selection-start-line="50" selection-start-column="87" selection-end-line="50" selection-end-column="87" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/_elements/admin-actions.twig" />
+        <option value="$PROJECT_DIR$/_elements/_header.twig" />
+        <option value="$PROJECT_DIR$/static/js/dev/common.js" />
+        <option value="$PROJECT_DIR$/_elements/social-modal.twig" />
+        <option value="$PROJECT_DIR$/static/css/sass/index.scss" />
+        <option value="$PROJECT_DIR$/_elements/_admin-actions.twig" />
+        <option value="$PROJECT_DIR$/_elements/_javascript.twig" />
+        <option value="$PROJECT_DIR$/_elements/card.twig" />
+        <option value="$PROJECT_DIR$/_elements/disqus.twig" />
+        <option value="$PROJECT_DIR$/_helpers/variables.twig" />
+        <option value="$PROJECT_DIR$/layouts/main.twig" />
+        <option value="$PROJECT_DIR$/static/css/sass/blocks/_button.scss" />
+        <option value="$PROJECT_DIR$/static/css/sass/blocks/_profile.scss" />
+        <option value="$PROJECT_DIR$/static/css/sass/_mixins.scss" />
+        <option value="$PROJECT_DIR$/static/css/sass/_reset.scss" />
+        <option value="$PROJECT_DIR$/static/css/sass/_variables.scss" />
+        <option value="$PROJECT_DIR$/article.twig" />
+        <option value="$PROJECT_DIR$/user-posts.twig" />
+        <option value="$PROJECT_DIR$/static/css/sass/blocks/_modal.scss" />
+        <option value="$PROJECT_DIR$/craft/config/db.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/static/css/sass/blocks/_card.scss" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1440" />
+    <option name="y" value="149" />
+    <option name="width" value="1440" />
+    <option name="height" value="804" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cog-boilerplate-craft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cog-boilerplate-craft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cog-boilerplate-craft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cog-boilerplate-craft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cog-boilerplate-craft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cog-boilerplate-craft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cog-boilerplate-craft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cog-boilerplate-craft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cog-boilerplate-craft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cog-boilerplate-craft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cog-boilerplate-craft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blocks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cog-boilerplate-craft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cog-boilerplate-craft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cog-boilerplate-craft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cog-boilerplate-craft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="craft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cog-boilerplate-craft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cog-boilerplate-craft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="craft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.lastSelected" value="Errors" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="js-jscs-package" value="/usr/local/lib/node_modules/jscs" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/static/craft-media" />
+      <recent name="$PROJECT_DIR$/static/images/icons" />
+      <recent name="$PROJECT_DIR$/static/css/sass/lib" />
+      <recent name="$PROJECT_DIR$/static/js" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4ab9150a-17e8-4ef4-b0ea-4ee1829fd62a" name="Default" comment="" />
+      <created>1475537608214</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1475537608214</updated>
+      <workItem from="1475537609450" duration="829000" />
+      <workItem from="1475734184878" duration="882000" />
+      <workItem from="1477013529528" duration="5578000" />
+      <workItem from="1477268429771" duration="6320000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="13609000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1440" y="149" width="1440" height="804" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/craft/templates/pages/_article.twig" />
+    <entry file="file://$PROJECT_DIR$/craft/plugins/codeblock/templates/input.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/craft/config/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/craft/templates/_layout.html" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/craft/templates/_layout.html" />
+    <entry file="file://$PROJECT_DIR$/craft/templates/pages/_article.twig" />
+    <entry file="file://$PROJECT_DIR$/craft/plugins/codeblock/templates/input.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robots.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/channel.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_helpers/variables-cogs.twig" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_elements/_elements/card.twig" />
+    <entry file="file://$PROJECT_DIR$/_elements/_banner.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/sass/blocks/_article.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/zoom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_static.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/dev/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="156" column="10" selection-start-line="156" selection-start-column="10" selection-end-line="156" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/dev/auth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-870">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/icons/editor/pin.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/sass/lib/zoom.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profile.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_elements/_admin-actions.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_elements/_header.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1395">
+          <caret line="93" column="32" selection-start-line="93" selection-start-column="32" selection-end-line="93" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_elements/_footer.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-350">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_elements/_javascript.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="75" selection-start-line="15" selection-start-column="75" selection-end-line="15" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/icons/paragraph.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_elements/card.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="44" column="14" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_elements/disqus.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_elements/social-modal.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_helpers/variables.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/main.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/sass/blocks/_button.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/sass/blocks/_user_posts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/sass/blocks/_profile.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/sass/_mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="653">
+          <caret line="173" column="1" selection-start-line="173" selection-start-column="1" selection-end-line="173" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/sass/_reset.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="653">
+          <caret line="117" column="0" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/sass/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="653">
+          <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/sass/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-49">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/article.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="104" selection-start-line="12" selection-start-column="104" selection-end-line="12" selection-end-column="104" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-posts.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="50" column="87" selection-start-line="50" selection-start-column="87" selection-end-line="50" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/sass/blocks/_modal.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="653">
+          <caret line="485" column="0" selection-start-line="485" selection-start-column="0" selection-end-line="485" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/craft/db/cog-boilerplate-craft_161006_045605_v2.6.2945.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/craft/config/general.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/craft/config/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/craft/config/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/sass/blocks/_card.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="122" column="11" selection-start-line="122" selection-start-column="11" selection-end-line="122" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

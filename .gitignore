@@ -1,4 +1,3 @@
-
 # Craft runtime and backups folders
 # ----------------------------------------------------------------------
 craft/storage/runtime/*
@@ -7,24 +6,6 @@ craft/storage/backups/*
 # Uploaded files
 # ----------------------------------------------------------------------
 public/assets/uploads/*
-
-# Misc files
-# ----------------------------------------------------------------------
-.DS_Store
-Thumbs.db
-.cache
-.project
-.settings
-.tmproj
-*.esproj
-nbproject
-*.sublime-workspace
-*.sublime-project
-*.komodoproject
-.komodotools
-_notes
-dwsync.xml
-logs/*
 
 # Numerous always-ignore extensions
 *.diff
@@ -38,18 +19,26 @@ logs/*
 *~
 *.sass-cache
 
-# OS or Editor folders
+# MISC FILES
+# ------------------------------------------------------------
+
 .DS_Store
 Thumbs.db
 .cache
 .project
 .settings
 .tmproj
+.idea
 *.esproj
 nbproject
-*.sublime-project
-*.sublime-workspace
 *.komodoproject
 .komodotools
+*.sublime-workspace
+*.sublime-project
 _notes
 dwsync.xml
+logs/*
+node_modules
+.idea
+
+/deploy.php

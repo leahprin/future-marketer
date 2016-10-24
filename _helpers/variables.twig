@@ -1,41 +1,43 @@
 {# ===============
    VARIABLES
-	 - TODO: set these with cogs specific code
+     - TODO: set these with cogs specific code
    =============== #}
-{% set text = entry.text %}
-{% set channel = entry.channel.first() %}
-{% set image = entry.image.first().url %}
-{% set link = entry.url %}
-{% set authorImage = entry.author.photoUrl %}
-{% set date = entry.postDate | date("d M, Y") %}
-
+{% if article is not defined and entry is defined %}
+	{% set article = entry %}
+{% endif %}
+{% set text = article.text %}
+{% set channel = article.channel.first() %}
+{% if article.image.first().url is defined %}
+	{% set image = article.image.first() %}
+{% endif %}
+{% set link = article.url %}
+{% if article.author.photoUrl is defined %}
+	{% set authorImage = article.author.photoUrl %}
+{% endif %}
+{% set date = article.postDate | date("d M, Y") %}
 {# Need to set all of the variables for them to be avaialle outside the IF loops below.
 More info: http://twig.sensiolabs.org/doc/tags/set.html #}
 {% set cardType = '' %}
 {% set postText = '' %}
 {% set author = '' %}
+{% set authorBio = '' %}
 {% set network = '' %}
 {% set headline = '' %}
-{% set author = '' %}
 {% set socialLink = '' %}
 {% set articleBody = '' %}
-
-
 {# SOCIAL Variables #}
-{% if entry.type == "social" %}
+{% if article.type == "social" %}
 	{% set cardType = 'social' %}
-	{% set author = entry.socialAuthor %}
-	{% set network = entry.socialNetwork %}
-	{% set socialLink = entry.socialLink %}
-
-{# ARTICLE Variables #}
-{% elseif entry.type == "article" %}
+	{% set author = article.socialAuthor %}
+	{% set network = article.socialNetwork %}
+	{% set socialLink = article.socialLink %}
+	{# ARTICLE Variables #}
+{% elseif article.type == "article" %}
 	{% set cardType = 'article' %}
-	{% set headline = entry.title %}
-	{% set author = entry.author.fullName %}
-	{% set articleBody = entry.articleBody %}
+	{% set headline = article.title %}
+	{% set author = article.author.fullName %}
+	{% set authorBio = article.author.authorBio %}
+	{% set articleBody = article.articleBody %}
 {% endif %}
-
-
 {% block content %}
 {% endblock %}

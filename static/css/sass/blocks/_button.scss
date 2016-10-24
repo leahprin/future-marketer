@@ -1,0 +1,58 @@
+.button {
+  background: transparent;
+  border: 1px solid #C5C8D2;
+  border-radius: 2px;
+  padding: 6px 20px 8px 20px;
+  display: inline-block;
+  @include text-sm;
+  @include transition(all 0.4s ease);
+  &__follow {
+    font-size: 13px;
+    color: #FFF;
+    border: 1px solid #fff;
+    padding: 2px 10px 4px;
+    max-width: 62px;
+    &:hover, &:active {
+      background: #fff;
+      color: rgb(65, 83, 90);
+    }
+    &--reverse {
+      color: rgb(65, 83, 90);
+      border: 1px solid rgb(65, 83, 90);
+      &:hover, &:active {
+        background: rgb(65, 83, 90);
+        color: #FFF;
+      }
+    }
+  }
+}
+
+.header_actions {
+  &__comments, &__share {
+    margin-top: 12px;
+    padding-left: 35px;
+    @include transition(all 0.4s ease);
+    &:hover {
+      color: rgb(65, 83, 90);
+      border: 1px solid rgb(65, 83, 90);
+    }
+  }
+  &__comments {
+    background-image: url(/static/images/icons/comment-icon.svg);
+    background-repeat: no-repeat;
+    background-position: 13px 8px;
+    margin-right: 5px;
+  }
+  &__share {
+    background-image: url(/static/images/icons/share-icon.svg);
+    background-repeat: no-repeat;
+    background-position: 13px 8px;
+  }
+}
+
+.user-header__comments, .user-header__share {
+  height:32px;
+  padding: 6px 20px 8px 20px;
+  max-width:none;
+  max-height: 32px;
+}

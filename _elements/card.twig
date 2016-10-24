@@ -1,5 +1,4 @@
-{# {% extends '_helpers/variables.twig' %} #}
-{% extends '_helpers/variables-cogs.twig' %}
+{% extends '_helpers/variables' %}
 
 {# ===============
    UNIVERSAL CARD
@@ -7,21 +6,40 @@
 
 {% block content  %}
 
-<article class="card {{ cardType }}">
-	<a href="{{link}}" class="link">
-		<div class="card__content">
-			<p class="channel">{{ channel }}</p>
-			{% if cardType == 'social' %}
-				<p class="text">{{ text|striptags[:120] ~ '...' }}</p>
-				<p class="author">{{ network }} @{{ author }}</p>
-			{% elseif cardType == 'article' %}
-				<h3 class="headline">{{ headline }}</h3>
-				<p class="text">{{ text|striptags[:120] ~ '...' }}</p>
-				<p class="author">By {{ author }}</p>
-			{% endif %}
-		</div>
-		<div class="image" style="background-image: url('{{ image }}'); height: 200px; background-size: cover;"></div>
-	</a>
-</article>
-<hr />
+	{% set imageCrop = {
+	mode: 'crop',
+	width: 1000,
+	height: 1000,
+	quality: 60,
+	position: 'center-center'
+	} %}
+
+	<article class="card--{{ cardType }}">
+		<a href="{{link}}" class="card card--{{ channel|lower }} {% if image is not defined %}card__no-image{% endif %} link" {% if image is defined %}style="background-image: url('{{ image.url(imageCrop) }}'); background-size: cover;background-position:center center;"{% endif %}>
+			<div class="card__overlay">
+				<div class="card__content_wrap">
+					{% include '_elements/_admin-actions.twig' %}
+					<div class="card__content">
+						<div class="card__channel-wrap">
+							<h5 class="card__channel">{{ channel }}</h5>
+						</div>
+						{% if cardType == 'social' %}
+							<p class="card__text">{{ text|striptags[:120] ~ '...' }}</p>
+							<p class="card__author">{{ network }} @{{ author }}</p>
+							<p class="card__read-more">By {{ author }}</p>
+						{% elseif cardType == 'article' %}
+							<h3 class="card__headline">{{ headline }}</h3>
+							<p class="card__text">{{ text|striptags[:120] ~ '...' }}</p>
+							<div class="card__read-time_wrap">
+								<p class="card__read-time"><img src="/static/images/icons/paragraph.svg" alt="paragraph icon"> 5 min read</p>
+							</div>
+						{% endif %}
+					</div>
+					{% if image is defined %}
+						<div class="card__image" style="background-image: url('{{ image }}'); background-size: cover;"></div>
+					{% endif %}
+				</div>
+			</div>
+		</a>
+	</article>
 {% endblock %}

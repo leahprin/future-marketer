@@ -1,0 +1,87 @@
+// Base layout classes
+.container {
+    @include container-fixed($grid-gutter-width);
+    display: block;
+    padding: 0;
+    @include tablet {
+        width:98%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    @include desktop {
+        width:$screen-md - $grid-gutter-width;
+    }
+    @include desktop-lg {
+        width:$screen-lg - $grid-gutter-width;
+    }
+}
+
+.row {
+    display: flex;
+    margin-left: -10px;
+    margin-right: -10px;
+    &-centered {
+        text-align:center;
+    }
+}
+
+div.home, div.channel, div.profile {
+    @extend .container;
+    display: flex;
+    flex-wrap: wrap;
+    @include tablet {
+        padding:0 10px;
+    }
+    @include desktop-sm {
+        padding:0;
+				border-radius: 10px;
+				overflow: hidden;
+    }
+    &::before {
+        display: none;
+    }
+    &::after {
+        display: none;
+    }
+}
+
+div.home {
+    @media (max-width: 1190px) {
+        padding: 0;
+        width:100%;
+    }
+}
+
+.col {
+    &-quarter,
+    &-quarter-short {
+        flex: 1 0 308px;
+        @include desktop-sm {
+            flex: 1 0 280px;
+        }
+
+    }
+    &-third,
+    &-third-short {
+        flex: 1 0 308px;
+        @include desktop-sm {
+            flex: 1 0 375px;
+        }
+    }
+    &-half {
+        flex: 1 0 308px;
+        @include tablet-lg {
+            flex: 1 0 50%;
+        }
+    }
+    &-two-thirds,
+    &-two-thirds-short {
+        flex: 1 0 66.66%;
+    }
+    &-three-quarters {
+        flex: 1 0 75%;
+    }
+    &-full {
+        flex: 1 0 100%;
+    }
+}
