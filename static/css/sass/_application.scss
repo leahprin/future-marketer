@@ -2,38 +2,88 @@
 @each $section, $values in $sections {
   $name:  $section;
   $color: map-get($values, color);
+  //$gradient: map-get($values, gradient);
+  //$background-color: map-get($values, background-color);
+  $length: length($sections);
 
-  // .header__navigation-item--#{$name} {
-  //   border-bottom: solid 4px $color;
-  // }
-
-  .footer--#{$name} {
-    box-shadow: inset 0px 2px 0px 0px $color;
+  //Change styling for header
+  .header__navigation-list {
+    li:nth-child(#{$length}n+#{$name}) a:hover {
+         color: $color;
+    }
   }
 
-  .card--#{$name} {
-    border-color: $color;
-
-    .card {
-      &__no-image .card__overlay {
-        background: $color;
-      }
-      &__author {
-        color: $color;
-      }
+  .footer__navigation-list {
+    li:nth-child(#{$length}n+#{$name}) a:hover {
+      color: $color;
     }
-    &.card--light {
+  }
+
+  div.home, div.channel, div.profile {
+    div:nth-child(#{$length}n+#{$name}) {
       .card {
-        &__category {
-          background-color: $color;
-
-
-          &:hover {
-            background-color: $hover-color;
+        border-top: 4px solid $color;
+        .card {
+          &__channel {
+            color: $color;
+            &::after {
+              background-color: $color;
+            }
           }
+          &__overlay {
+            //background: $background-color;
+            //background-image: $gradient!important;
+          }
+          &__no-image .card__overlay {
+            //background: $color;
+          }
+          &__author {
+            color: $color;
+          }
+        }
+        &.card__no-image .card__overlay {
+          //background: $color;
         }
       }
     }
+  }
+  div.channels {
+    a:nth-child(#{$length}n+#{$name}) {
+      .channel-thumb {
+        &__overlay {
+          //background: $background-color;
+          //background-image: $gradient!important;
+        }
+      }
+    }
+  }
+
+  $random-section: map-get($sections, (random(length($sections)) - 1));
+
+  $first-card-color: map-get($random-section, color);
+
+
+  .col-third-container > div:nth-child(#{$length}n+#{$name}) article {
+    .card {
+      border-top: 4px solid $first-card-color!important;
+      .card {
+        &__channel {
+          &::after {
+            background-color: $first-card-color;
+          }
+        }
+      }
+      &.card__no-image {
+        border-top: 4px solid $first-card-color;
+        .card__content .card__channel-wrap .card__channel {
+          color: $first-card-color;
+        }
+      }
+    }
+  }
+
+  .social-modal__channel--#{$name} {
+    color: $color;
   }
 
   .card__follow.card--#{$name} {
@@ -46,6 +96,12 @@
     .article {
       &__banner {
         border-color: $color;
+      }
+      &__category {
+        color: $color;
+        &:after{
+          background: $color;
+        }
       }
       &__follow {
         background-color: $color;
@@ -60,6 +116,19 @@
     }
   }
 }
+
+$random-section: map-get($sections, (random(length($sections)) - 1));
+
+$first-card-color: map-get($random-section, color);
+
+#content > .col-full .card__channel::after {
+  background-color: $first-card-color;
+}
+
+#content > .col-full .card {
+  border-top: 4px solid $first-card-color;
+}
+
 
 
 // Cards

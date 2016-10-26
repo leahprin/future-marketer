@@ -36,7 +36,7 @@
 						{% endif %}
 					</div>
 					{% if image is defined %}
-						<div class="card__image" style="background-image: url('{{ image }}'); background-size: cover;"></div>
+						<div class="card__image" style="background-image: url('{{ image.url() }}'); background-size: cover;background-position:center center;"></div>
 					{% endif %}
 				</div>
 			</div>

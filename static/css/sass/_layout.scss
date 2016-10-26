@@ -16,15 +16,6 @@
     }
 }
 
-.row {
-    display: flex;
-    margin-left: -10px;
-    margin-right: -10px;
-    &-centered {
-        text-align:center;
-    }
-}
-
 div.home, div.channel, div.profile {
     @extend .container;
     display: flex;
@@ -34,8 +25,6 @@ div.home, div.channel, div.profile {
     }
     @include desktop-sm {
         padding:0;
-				border-radius: 10px;
-				overflow: hidden;
     }
     &::before {
         display: none;
@@ -57,15 +46,32 @@ div.home {
     &-quarter-short {
         flex: 1 0 308px;
         @include desktop-sm {
-            flex: 1 0 280px;
+            flex: 1 0 25%;
         }
 
     }
     &-third,
     &-third-short {
-        flex: 1 0 308px;
-        @include desktop-sm {
-            flex: 1 0 375px;
+        flex: 1 0 100%;
+        @include tablet-lg {
+            flex: 1 0 33.3333%;
+        }
+    }
+    &-third-container {
+        flex: 1 0 100%;
+        flex-wrap: wrap;
+        display: flex;
+        @include tablet-lg {
+            flex: 1 0 33.3333%;
+            flex-wrap: nowrap;
+            display: block;
+            flex-direction: column;
+        }
+        .col-third {
+            flex: 1 0 320px;
+            @include tablet-lg {
+                flex: 1 0 33.3333%;
+            }
         }
     }
     &-half {
@@ -76,7 +82,7 @@ div.home {
     }
     &-two-thirds,
     &-two-thirds-short {
-        flex: 1 0 66.66%;
+        flex: 1 0 66.6666%;
     }
     &-three-quarters {
         flex: 1 0 75%;

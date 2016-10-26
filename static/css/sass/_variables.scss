@@ -1,54 +1,73 @@
-$light-color:     #fff;
-$gray-color:      #ebebeb;
-$dark-color:      #000000;
-$base-color:      #404040;
-$grey:			  #808080;
-$body-text:       #4A4A4A;
+$light-color:       #fff;
+$gray-color:        #ebebeb;
+$dark-color:        #000000;
+$grey:			    #808080;
+$body-text:         #4A4A4A;
+$header-background: #363636;
+$body-color:        rgb(236,236,236);
 
-$highlight-color: #36647E;
-$quote-color:     #662d91;
-$hover-color:     $highlight-color;
-$follow-color:    #00a651;
-$hashtag-color:   #55acee;
-$slide-color:     #0076a3;
-$blue:            #46a5fc;
-$transparent:     rgba(0,0,0,0);
-$border-color:    #e0e0e0;
-$placeholder:     #A9B0BC;
+$highlight-color:   #36647E;
+$quote-color:       #662d91;
+$hover-color:       $highlight-color;
+$follow-color:      #00a651;
+$hashtag-color:     #55acee;
+$slide-color:       #0076a3;
+$blue:              #46a5fc;
+$transparent:       rgba(0,0,0,0);
+$border-color:      #e0e0e0;
+$placeholder:       rgba(255, 255, 255, 0.8);
 
-$error-color:     #e73d4a;
-$success-color:   #4FE8C4;
-$warning:         #fecd50;
-$black:           #000000;
-$white:           #ffffff;
+$error-color:       #e73d4a;
+$success-color:     #4FE8C4;
+$warning:           #fecd50;
+$black:             #000000;
+$white:             #ffffff;
 
 $sections: (
-        national:    (
-                color: rgba(69, 101, 118, 1),
+        0:    (
+                color: rgb(255, 201, 117),
+                gradient: linear-gradient(-136deg, rgba(255,73,227,0.58) 0%, rgba(255,73,226,0.00) 76%),
+                background-color: rgba(255, 201, 117, 0.4)
         ),
-        world: (
-                color: rgba(106, 131, 145, 1)
+        1: (
+                color: rgb(154, 110, 247),
+                gradient: linear-gradient(-135deg, rgba(19,255,255,0.46) 0%, rgba(18,255,203,0.00) 75%),
+                background-color: rgba(154, 110, 247, 0.4)
         ),
-        lifestyle:        (
-                color: rgba(134, 154, 165, 1)
+        2:        (
+                color: rgb(255, 152, 125),
+                gradient: linear-gradient(-136deg, rgba(178,50,132,0.58) 0%, rgba(225,69,170,0.00) 77%),
+                background-color: rgba(255, 152, 125, 0.4)
         ),
-        travel:         (
-                color: rgba(162, 178, 167, 1)
+        3:         (
+                color: rgb(225, 119, 159),
+                gradient: linear-gradient(-136deg, rgba(88,83,206,0.58) 0%, rgba(89,84,206,0.00) 77%),
+                background-color: rgba(225, 119, 159, 0.4)
         ),
-        entertainment:     (
-                color: rgba(190, 201, 207, 1)
+        4:     (
+                color: rgb(255, 117, 109),
+                gradient: linear-gradient(-136deg, #F9A3A3 0%, rgba(249,163,163,0.00) 77%),
+                background-color: rgba(255, 117, 109, 0.4)
         ),
-        technology:       (
-                color: rgba(209, 217, 221, 1)
+        5:       (
+                color: rgb(162, 129, 234),
+                gradient: linear-gradient(-135deg, rgba(19,255,255,0.46) 0%, rgba(18,255,203,0.00) 75%),
+                background-color: rgba(162, 129, 234, 0.4)
         ),
-        finance:         (
-                color: rgba(227, 232, 234, 1)
+        6:         (
+                color: rgb(108, 210, 248),
+                gradient: linear-gradient(-136deg, rgba(91,58,250,0.58) 0%, rgba(92,58,250,0.00) 77%),
+                background-color: rgba(108, 210, 248, 0.4)
         ),
-        sport:      (
-                color: rgba(69, 101, 118, 0.10)
+        7:      (
+                color: rgb(93, 228, 216),
+                gradient: linear-gradient(-135deg, rgba(46,109,188,0.58) 0%, rgba(79,153,248,0.00) 75%),
+                background-color: rgba(93, 228, 216, 0.4)
         ),
-        extra:      (
-                color: rgba(69, 101, 118, 0.05)
+        8:      (
+                color: rgb(87, 211, 149),
+                gradient: linear-gradient(-136deg, rgba(20,164,164,0.82) 0%, rgba(8,255,223,0.00) 77%),
+                background-color: rgba(87, 211, 149, 0.4)
         )
 );
 
@@ -78,7 +97,7 @@ $screen-md: 1190px; // Desktop
 $screen-lg: 1600px; // Large desktop
 
 // Font
-$heading-font-family: "Droid Serif", Helvetica, Arial, sans-serif !default;
+$heading-font-family: "Open Sans", Helvetica, Arial, sans-serif !default;
 $base-font-family:  	"Open Sans", Helvetica, Arial, sans-serif !default;
 $text-font-family: 	"Open Sans", Helvetica, Arial, sans-serif !default;
 $iconfont:				FontAwesome !default;

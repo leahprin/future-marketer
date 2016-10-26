@@ -1455,7 +1455,7 @@ $(document).ready(function() {
 		menu: '.side-navigation',
 		menuWidth: $(window).width() < 480 ? '260px' : '400px',
 		easyClose: true,
-		side: 'left',
+		side: 'right',
 		activeBtn: 'close',
 		beforeOpen: function() {
 			return $(this.menu).css('visibility', 'visible');

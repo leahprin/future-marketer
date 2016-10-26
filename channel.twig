@@ -4,13 +4,14 @@
 
 {% set articles = craft.entries.relatedTo(category) %}
 
+{% if articles[0] is defined %}
+    <div class="col-full">
+        {% include '_elements/card.twig' with {article: articles[0]} %}
+    </div>
+{% endif %}
+
 <div class="channel">
     {% if articles|length > 0 %}
-        {% if articles[0] is defined %}
-            <div class="col-full">
-                {% include '_elements/card.twig' with {article: articles[0]} %}
-            </div>
-        {% endif %}
         {% if articles[1] is defined %}
             <div class="col-third">
                 {% include '_elements/card.twig' with {article: articles[1]} %}

@@ -37,31 +37,6 @@
                 <a class="header__heading-logo" href="/">
                     <img src="/static/images/logo.svg" width="177" />
                 </a>
-                <ul class="header__navigation-list">
-                    {% set entries = craft.categories.group('channels') %}
-                    {% for i in 0..4 %}
-                        {% set entry = entries[i] %}
-                        <li class="header__navigation-item header__navigation-item--{{ entry.title|lower }}">
-                            <a href="{{ entry.url }}" class="header__navigation-link">
-                                {{ entry.title }}
-                            </a>
-                        </li>
-                    {% endfor %}
-                    {% if entries[5] is defined %}
-                        <li class="header__navigation-item dropdown">
-                            <a href="#" class="header__navigation-link dropdown-toggle" type="button" id="dropdown" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true">
-                                More <i class="fa fa-angle-down"></i>
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="dropdown">
-                                {% for i in 5..(entries|length - 1)%}
-                                    {% set entry = entries[i] %}
-                                    <li class="header__navigation-item--{{ entry.title|lower }}"><a href="{{ entry.url }}" class="">{{ entry.title }}</a></li>
-                                {% endfor %}
-                            </ul>
-                        </li>
-
-                    {% endif %}
-                </ul>
                 {#<!--{% endif %}-->#}
             </div>
             <div class="header__heading--right">
@@ -98,10 +73,7 @@
             </div>
         </div>
     </div>
-    <div class="header__navigation-responsive">
-        Menu
-    </div>
-    {# <div class="header__navigation">
+    <div class="header__navigation">
         <div class="container">
             <div class="header__navigation-row">
                 <ul class="header__navigation-list">
@@ -131,7 +103,7 @@
                 </ul>
             </div>
         </div>
-    </div> #}
+    </div>
     <div class="side-navigation">
         <form method="get">
             <input type="text" class="side-navigation__search" placeholder="Search" name="s">
