@@ -1,17 +1,54 @@
 .profile {
   &__header {
     width:100%;
+    height: 260px;
+    background-image: linear-gradient(-134deg, #A8C4D0 0%, #7396A5 100%);
+    padding: 0 26px;
+    margin-bottom: 262px;
+    @include tablet-lg {
+      height: 471px;
+      margin-bottom: 30px;
+    }
   }
   &__background {
-    height: 470px;
-    background-image: linear-gradient(-134deg, #A8C4D0 0%, #7396A5 100%);
+    @extend .container;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    @include tablet-lg {
+      flex-direction: row;
+      align-items: center;
+    }
   }
   &__heading {
-    color: white;
+    @include text-lg();
     text-transform: capitalize;
+    margin-bottom: 10px;
+    @include tablet-lg {
+      margin-top: 25px;
+    }
+  }
+  &__text {
+    margin-bottom: 10px;
+    @include tablet-lg {
+      margin-bottom: 0px;
+    }
+  }
+  &__blurb {
+    max-height:90px;
+    overflow: hidden;
+    max-width: 540px;
+    @include text-md($line-height: 1.66, $color: $white);
+    @include tablet {
+      font-size: 24px;
+      line-height: 1.41;
+      max-height:66px;
+    }
+    @include tablet-lg {
+    }
   }
 }
 
@@ -19,24 +56,41 @@
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
-  position: relative;
-  bottom: 70px;
-  padding: 0 10px;
+  position: absolute;
+  top: 224px;
+  background-color: $white;
+  min-height: 260px;
+  width: 100%;
+  padding: 30px 10px;
   text-align: center;
-  @include tablet {
-    padding: 0;
+  z-index: 1;
+  @include tablet-lg {
+    height: 467px;
+    position: static;
+    width:370px;
+    align-items: center;
+  }
+  &__display {
+    position: relative;
+    bottom: 4px;
+    @include tablet-lg {
+      bottom: 0;
+    }
   }
   &__image {
-    width:140px;
-    height: 140px;
+    width:100px;
+    height: 100px;
+    position: relative;
+    top: 8px;
+    margin-bottom: 20px;
   }
   &__name {
     text-align: center;
-    @include text-sm($font-multiplier: 0.78, $color: #4A4A4A, $font-weight: 700);
+    @include text-sm($font-multiplier: 1.1, $color: #4A4A4A, $font-weight: 700);
     position: relative;
-    margin-top: 4px;
+    margin-bottom: 22px;
   }
   .user-header__share {
-    margin-top: 10px;
+    //margin-top: 10px;
   }
 }

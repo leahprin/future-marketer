@@ -118,8 +118,14 @@
 }
 
 $random-section: map-get($sections, (random(length($sections)) - 1));
+$random-section-two: map-get($sections, (random(length($sections)) - 1));
+$random-section-three: map-get($sections, (random(length($sections)) - 1));
+$random-section-four: map-get($sections, (random(length($sections)) - 1));
 
 $first-card-color: map-get($random-section, color);
+$article-image-color: map-get($random-section-two, color);
+$profile-image-color: map-get($random-section-three, color);
+$contact-image-color: map-get($random-section-four, color);
 
 #content > .col-full .card__channel::after {
   background-color: $first-card-color;
@@ -128,6 +134,48 @@ $first-card-color: map-get($random-section, color);
 #content > .col-full .card {
   border-top: 4px solid $first-card-color;
 }
+
+.contact__body {
+  border-top: 4px solid $contact-image-color;
+  .contact__submit {
+    border: 1px solid $contact-image-color;
+    color: $contact-image-color;
+  }
+}
+
+.profile__header {
+  border-top: 4px solid $profile-image-color;
+  .button__follow {
+    border: 1px solid $profile-image-color;
+    color: $profile-image-color;
+    &:hover, &:active {
+      background: $profile-image-color;
+      color: $white;
+    }
+  }
+}
+
+.article {
+  &__image {
+    border-top: 4px solid $article-image-color;
+  }
+  &__channel {
+    @include text-sm($letter-spacing: 0.012em);
+    color: $article-image-color;
+    &::after {
+      background-color: $article-image-color;
+    }
+  }
+  .button__follow {
+    border: 1px solid $article-image-color;
+    color: $article-image-color;
+    &:hover, &:active {
+      background: $article-image-color;
+      color: $white;
+    }
+  }
+}
+
 
 
 

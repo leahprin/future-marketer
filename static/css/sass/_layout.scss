@@ -4,7 +4,7 @@
     display: block;
     padding: 0;
     @include tablet {
-        width:98%;
+        width:100%;
         margin-left:auto;
         margin-right:auto;
     }
@@ -14,18 +14,6 @@
     @include desktop-lg {
         width:$screen-lg - $grid-gutter-width;
     }
-}
-
-div.home, div.channel, div.profile {
-    @extend .container;
-    display: flex;
-    flex-wrap: wrap;
-    @include tablet {
-        padding:0 10px;
-    }
-    @include desktop-sm {
-        padding:0;
-    }
     &::before {
         display: none;
     }
@@ -34,10 +22,41 @@ div.home, div.channel, div.profile {
     }
 }
 
-div.home {
+div.home, div.channel, div.profile, div.channels {
+    @extend .container;
+    display: flex;
+    flex-wrap: wrap;
+    @include tablet {
+        padding:0 20px;
+    }
+    @include desktop-sm {
+        padding:0;
+    }
+}
+
+div.home, div.channels {
+    margin-bottom: 20px;
+    @include tablet-lg {
+        margin-bottom: 20px;
+    }
+    @include desktop-lg {
+        margin-bottom: 30px;
+    }
     @media (max-width: 1190px) {
         padding: 0;
         width:100%;
+    }
+}
+
+div.home.additional-articles__wrap {
+    @include desktop-sm {
+        width: 1200px;
+    }
+    @include desktop-lg {
+        width: 1610px;
+    }
+    article {
+        margin: 15px;
     }
 }
 

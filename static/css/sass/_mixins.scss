@@ -149,7 +149,7 @@
 	color: $color;
 }
 
-@mixin text-lg($letter-spacing: -0.0138em, $color: $white, $font-weight: 700, $line-height: 1.22,$font-multiplier-sm: 1.8, $font-multiplier: 2.5) {
+@mixin text-lg($letter-spacing: -0.0138em, $color: $white, $font-weight: 700, $line-height: 1.22,$font-multiplier-sm: 1.4, $font-multiplier: 2.5) {
 	font-size: ($baseFontSize * $font-multiplier-sm);
 	@include tablet {
 		font-size: ($baseFontSize * $font-multiplier);

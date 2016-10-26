@@ -8,11 +8,11 @@
 {# Then, grab the user based on the username %}#}
 {% set user = craft.users.username(username).first() %}
 	{% if user %}
-		<div class="profile">
-
-			<div class="profile__header">
-				<div class="profile__background" {% if image is defined %}style="background-image: url('{{ image }}'); background-size: cover;"{% endif %}>
+		<div class="profile__header">
+			<div class="profile__background" {% if image is defined %}style="background-image: url('{{ image }}'); background-size: cover;"{% endif %}>
+				<div class="profile__text">
 					<h1 class="profile__heading">{{user}} Posts</h1>
+					<div class="profile__blurb">Description sentence for blog. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</div>
 				</div>
 				<div class="user-header">
 					<div class="user-header__display">
@@ -22,60 +22,14 @@
 					</div>
 				</div>
 			</div>
+		</div>
+		<div class="profile">
+
 
 			{% set articles = craft.entries.section('posts').type('article').authorId(user.id).find() %}
 
 			{% if articles|length > 0 %}
-				{% if articles[0] is defined %}
-					<div class="col-full">
-						{% include '_elements/card.twig' with {article: articles[0]} %}
-					</div>
-				{% endif %}
-				{% if articles[1] is defined %}
-					<div class="col-third">
-						{% include '_elements/card.twig' with {article: articles[1]} %}
-					</div>
-				{% endif %}
-				{% if articles[2] is defined %}
-					<div class="col-third">
-						{% include '_elements/card.twig' with {article: articles[2]} %}
-					</div>
-				{% endif %}
-				{% if articles[3] is defined %}
-					<div class="col-third">
-						{% include '_elements/card.twig' with {article: articles[3]} %}
-					</div>
-				{% endif %}
-				{% if articles[4] is defined %}
-					<div class="col-half">
-						{% include '_elements/card.twig' with {article: articles[4]} %}
-					</div>
-				{% endif %}
-				{% if articles[5] is defined %}
-					<div class="col-half">
-						{% include '_elements/card.twig' with {article: articles[5]} %}
-					</div>
-				{% endif %}
-				{% if articles[6] is defined %}
-					<div class="col-quarter">
-						{% include '_elements/card.twig' with {article: articles[6]} %}
-					</div>
-				{% endif %}
-				{% if articles[7] is defined %}
-					<div class="col-quarter">
-						{% include '_elements/card.twig' with {article: articles[7]} %}
-					</div>
-				{% endif %}
-				{% if articles[8] is defined %}
-					<div class="col-quarter">
-						{% include '_elements/card.twig' with {article: articles[8]} %}
-					</div>
-				{% endif %}
-				{% if articles[9] is defined %}
-					<div class="col-quarter">
-						{% include '_elements/card.twig' with {article: articles[9]} %}
-					</div>
-				{% endif %}
+				{% include '_elements/_card-layout.twig' with {articles: articles} %}
 			{% endif %}
 		</div>
 
