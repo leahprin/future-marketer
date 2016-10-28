@@ -3,7 +3,7 @@
   $name:  $section;
   $color: map-get($values, color);
   //$gradient: map-get($values, gradient);
-  //$background-color: map-get($values, background-color);
+  $background-color: map-get($values, background-color);
   $length: length($sections);
 
   //Change styling for header
@@ -38,11 +38,11 @@
             //background: $color;
           }
           &__author {
-            color: $color;
+            //color: $color;
           }
         }
-        &.card__no-image .card__overlay {
-          //background: $color;
+        &.card__no-image .card__content_wrap {
+          background-color: $background-color;
         }
       }
     }
@@ -175,49 +175,6 @@ $contact-image-color: map-get($random-section-four, color);
     }
   }
 }
-
-
-
-
-// Cards
-@each $card in $cards {
-  $name:  nth($card, 1);
-  $color: nth($card, 2);
-
-  .card__#{$name} {
-    border-color: $color;
-
-    .card {
-      &__category {
-        color: $color;
-
-        &-light {
-          background-color: $color;
-        }
-
-        &:after {
-          background-color: $color;
-        }
-      }
-
-      &__no-image,
-      &__image {
-        border-color: $color;
-      }
-      &__author {
-        color: $color;
-      }
-    }
-    &.card--light {
-      .card {
-        &__category {
-          background-color: $color;
-        }
-      }
-    }
-  }
-}
-
 
 .simplemodal {
   &-overlay {

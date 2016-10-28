@@ -7,15 +7,21 @@
     .card__channel {
       //background-color: $white;
     }
-    .card__read-more {
+    .card__read-more, .card__author {
       @include text-sm($letter-spacing: 0.21px);
     }
     .card__text {
       color: $body-text!important;
     }
+    .card__content {
+      flex: 0 1 auto!important;
+    }
     .card__content_wrap {
       background-color: white;
+      align-items: center;
+      flex-direction: row!important;
     }
+
   }
   &__default {
 
@@ -47,10 +53,15 @@
     &:hover {
       background-color: rgba(0,0,0,0.2);
     }
-    img  {
+    span  {
       position: relative;
-      bottom: 2px;
+      height: 12px;
+      display: inline-block;
+      width: 22px;
+      background-repeat: no-repeat;
+      background-position: center;
       margin-right: 5px;
+      background-image: url('/static/images/icons/paragraph-dark.svg');
     }
   }
   &__overlay {
@@ -62,7 +73,14 @@
     margin-right: auto;
   }
   &__author {
-    display: none;
+    @include text-sm($letter-spacing: 0.012em);
+  }
+  &__network-icon {
+    position: relative;
+    font-size: 18px;
+    color: #4a4a4a;
+    top: 2px;
+    margin-right: 3px;
   }
   &__channel {
     @include text-sm($letter-spacing: 0.21px, $font-multiplier: 0.68, $color: $white);
@@ -94,7 +112,7 @@
     word-wrap: break-word;
   }
   &__read-more {
-    @include text-sm;
+    display: none;
   }
 }
 
@@ -115,6 +133,7 @@
   position: absolute;
   right: 0px;
   top: 0px;
+  z-index: 1;
   display: none;
   button:last-child {
     border-bottom: none;
@@ -196,6 +215,7 @@ div.home, div.channel, div.profile {
           margin-right: 5px;
         }
       }
+
     }
   }
   > .col-full,
@@ -207,10 +227,20 @@ div.home, div.channel, div.profile {
       .card__read-more {
         opacity: 1;
       }
+      &__content {
+        .card__read-more, .card__author {
+          color: white;
+        }
+      }
+    }
+    .card__network-icon {
+      color: white;
     }
   }
-  > .col-full .card .card__content .card__read-more {
-    color: $white;
+  .col-third-container .col-third .card__no-image .card__content {
+    .card__read-more, .card__author, .card__network-icon {
+      color: $body-text;
+    }
   }
 }
 
@@ -235,9 +265,15 @@ div.home, div.channel, div.profile {
       @include desktop-sm {
         padding: 50px 0 20px;
       }
+      @include desktop-lg {
+        max-width: 1580px;
+      }
     }
     &__content_wrap {
       background-color: rgba(0, 0, 0, 0.34);
+    }
+    &__read-time .card__paragraph-icon {
+      background-image: url('/static/images/icons/paragraph.svg');
     }
   }
   .card--social {
@@ -290,6 +326,7 @@ div.home, div.channel, div.profile {
       min-height: 0;
       height:168px;
       margin-bottom: 0;
+      position: relative;
       @include tablet-lg {
         height: 157px;
       }
@@ -300,7 +337,7 @@ div.home, div.channel, div.profile {
     }
     .card__no-image {
       .card__content_wrap {
-        background-color: rgba(0, 0, 0, 0);
+        background-color: rgba(0, 0, 0, 0)!important;
       }
     }
     .card__content {
@@ -310,6 +347,12 @@ div.home, div.channel, div.profile {
       justify-content: space-between;
       margin: 0;
       height: 100%;
+      flex: 1 0 100%;
+    }
+    .card__author, .card__read-more {
+      position: absolute;
+      top: 22px;
+      right: 22px;
     }
     .card__channel {
       margin: 0;
@@ -324,6 +367,13 @@ div.home, div.channel, div.profile {
       max-width: 535px;
       max-height: 46px;
       overflow: hidden;
+      margin-left: 0;
+      @include tablet {
+        max-height: 68px;
+      }
+      @include desktop-sm {
+        max-height: 46px;
+      }
     }
     .card__read-more {
       display: none;

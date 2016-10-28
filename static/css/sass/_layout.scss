@@ -87,8 +87,8 @@ div.home.additional-articles__wrap {
             flex-direction: column;
         }
         .col-third {
-            flex: 1 0 320px;
-            @include tablet-lg {
+            flex: 1 0 100%;
+            @include tablet {
                 flex: 1 0 33.3333%;
             }
         }

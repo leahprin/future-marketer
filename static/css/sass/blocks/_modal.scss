@@ -1,36 +1,77 @@
 /* Layout ▸ Modal
 ----------------------------- */
+.modal-dialog {
+	margin: auto;
+	min-height:100vh;
+	background: #000000;
+	background-image: linear-gradient(43deg, #522D58 0%, #25314E 83%, #203D6B 100%);
+	@include tablet {
+		width: auto;
+	}
+	@include desktop-sm {
+		width:auto;
+	}
+}
+
 .social-modal {
 	display: flex;
 	flex-direction: column;
-	flex-wrap: wrap;
-	border-radius: 10px!important;
-	overflow: hidden!important;
-	@include desktop-sm {
+	@include tablet-lg {
+		overflow: hidden!important;
+		flex-wrap: wrap;
 		flex-direction: row;
 		height: 100%;
 	}
+	&__image_container {
+		@include tablet-lg {
+			margin-left: 330px;
+			padding: 102px 42px 102px;
+			background: #000000;
+			background-image: linear-gradient(43deg, #522D58 0%, #25314E 83%, #203D6B 100%);
+			height: 100vh;
+			width: calc(100vw - 330px);
+		}
+	}
+	&__image_wrap {
+		@include tablet-lg {
+			height: 100%;
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+	}
 	&__image {
 		width:100%;
-		@include desktop-sm {
-			width: auto;
+		@include tablet-lg {
 			max-height: 100%;
-			height:auto;
-			display: block;
-			margin: auto;
+			max-width: 100%;
+			width: auto;
+			height: auto;
 		}
 	}
 	&__content {
-		padding: 10px 25px 25px;
-		background: #42535A;
-		box-shadow: 0px 0px 60px 0px rgba(0,0,0,0.16);
-		text-align: center;
+		padding: 30px 30px 36px;
+		background: #000000;
+		background-image: linear-gradient(43deg, #522D58 0%, #25314E 83%, #203D6B 100%);
+		border-radius: 2px;		box-shadow: 0px 0px 60px 0px rgba(0,0,0,0.16);
+		text-align: left;
 
-		@include desktop-sm {
-			flex: 1 1 320px;
-			text-align: left;
-			padding: 30px 25px;
-			width: 400px;
+		@include tablet-lg {
+			width: 330px;
+			position: fixed;
+			left: 0;
+			top: 0;
+			height: 100%;
+			background-image: none;
+			background: #402E55;
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			justify-content: center;
+		}
+		@include desktop-lg {
+			width: 390px;
 		}
 	}
 	&__text {
@@ -38,29 +79,26 @@
 		font-size: 25px;
 		color: #FFFFFF;
 		letter-spacing: -0.35px;
-		line-height: 30px;
+		line-height: 35px;
 		text-shadow: 0px 1px 0px rgba(0,0,0,0.25);
-		margin-bottom:15px;
+		margin-bottom:28px;
+		text-align: left;
 		@include tablet {
-			text-align: left;
 			margin-bottom: 30px;
 		}
+
 	}
 	&__channel {
-		border-radius: 39px;
 		font-weight: 600;
 		font-size: 13px;
 		letter-spacing: 0.21px;
 		display: inline-block;
-		padding: 3px 15px;
+		padding: 0px 8px 1px;
 		background-color: #fff;
+		text-transform: uppercase;
 		color: #456576;
+		margin-bottom: 26px;
 		position: relative;
-		bottom: 24px;
-		margin-bottom: 15px;
-		@include desktop-sm {
-			bottom: auto;
-		}
 	}
 	.article__author {
 		color: white;
@@ -69,12 +107,13 @@
 }
 
 .close {
-	top: 20px;
-	right: 24px;
+	top: 26px;
+	right: 28px;
 	opacity: 1;
-	position: fixed;
+	position: absolute;
 	@include desktop-sm {
-		right: 38px;
+		top: 28px;
+		right: 35px;
 	}
 	// .fa-close {
 	// 	color: white;
@@ -82,6 +121,22 @@
 	svg {
 		stroke: #42535A;
 		opacity: 0.4;
+	}
+	&__text {
+		@include text-sm($color: #fff);
+		margin-top: 4px;
+		opacity: 0.5;
+	}
+	&__lg-modal {
+		display: none;
+		@include tablet-lg {
+			display: block;
+		}
+	}
+	&__sm-modal {
+		@include tablet-lg {
+			display: none;
+		}
 	}
 }
 
@@ -109,22 +164,12 @@
 	transform: translate(0, 0);
 }
 .modal:before {
-	content:" ";
-	height:10%;
-	@include tablet {
+	display:inline-block;
+	@include desktop-sm {
+		vertical-align:middle;
 		height:100%;
 	}
-	display:inline-block;
-	vertical-align:middle;
-}
-.modal-dialog {
-	text-align:left;
-	display:inline-block;
-	vertical-align:middle;
-	@include desktop-sm {
-		height: 90vh;
-		width:auto;
-	}
+
 }
 
 

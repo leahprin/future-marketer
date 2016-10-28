@@ -15,6 +15,7 @@
         });
 
         $('.article img').attr('data-action','zoom');
+        $('.social-modal img').attr('data-action','zoom');
     });
 
     function draggable() {
