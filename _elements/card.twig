@@ -15,7 +15,7 @@
 	} %}
 
 	<article class="card--{{ cardType }}">
-		<a href="{{link}}" class="card card--{{ channel|lower }} {% if cardType == 'social' %}card__{{ network|lower }}{% endif %} {% if image is not defined %}card__no-image{% endif %} link" {% if image is defined %}style="background-image: url('{{ image.url(imageCrop) }}'); background-size: cover;background-position:center center;"{% endif %}>
+		<a href="{{link}}" data-slug="{{ slug }}" class="card card--{{ channel|lower }} {% if cardType == 'social' %}card__{{ network|lower }}{% endif %} {% if image is not defined %}card__no-image{% endif %} link" {% if image is defined and embed is null %}style="background-image: url('{{ image.url(imageCrop) }}'); background-size: cover;background-position:center center;"{% elseif embed is defined  %}style="background-image: url('{{ embed.thumbnailUrl }}'); background-size: cover;background-position:center center;"{% endif %}>
 			<div class="card__overlay">
 				<div class="card__content_wrap">
 					{% include '_elements/_admin-actions.twig' %}
@@ -24,7 +24,18 @@
 							<h5 class="card__channel">{{ channel }}</h5>
 						</div>
 						{% if cardType == 'social' %}
-							<p class="card__text">{{ text|striptags[:120] ~ '...' }}</p>
+							{% if network == 'youtube' or network == 'vimeo' %}
+								<div class="card__text-wrap">
+									<img class="card__play-button" src="/static/images/icons/play-white.svg" alt="Play video button">
+									<p class="card__text">
+										{{ text|striptags[:120] ~ '...' }}
+									</p>
+								</div>
+							{% else %}
+								<p class="card__text">
+									{{ text|striptags[:120] ~ '...' }}
+								</p>
+							{% endif %}
 							<p class="card__author"><i class="card__network-icon fa {% if network == 'youtube' %}fa-youtube-play{% elseif network|lower == 'facebookpages' %}fa-facebook{% else %}fa-{{ network|lower }}{% endif %}"></i> @{{ author }}</p>
 							<p class="card__read-more">By {{ author }}</p>
 						{% elseif cardType == 'article' %}
@@ -35,11 +46,21 @@
 							</div>
 						{% endif %}
 					</div>
-					{% if image is defined %}
+					{% if image is defined and embed is null %}
 						<div class="card__image" style="background-image: url('{{ image.url() }}'); background-size: cover;background-position:center center;"></div>
+					{% elseif embed is defined  %}
+						<div class="card__image" style="background-image: url('{{ embed.thumbnailUrl }}'); background-size: cover;background-position:center center;">
+							<img class="card__play-button" src="/static/images/icons/play-white.svg" alt="Play video button">
+						</div>
 					{% endif %}
 				</div>
 			</div>
 		</a>
 	</article>
+
+	{# For demo purposes only, we don't want this many modals redering per page #}
+	<div class="modal" id="{{ slug }}" role="dialog">
+		{% include '_elements/social-modal' with {article: article} %}
+	</div>
+
 {% endblock %}

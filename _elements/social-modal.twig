@@ -1,23 +1,31 @@
+{% extends '_helpers/variables' %}
+
 {% block content %}
-	<div class="modal" id="socialModal" role="dialog">
+
 		<div class="modal-dialog modal-extlg" role="document">
 			<div class="modal-content social-modal">
 				<button type="button" class="close close__lg-modal" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><img src="/static/images/icons/close-modal.svg" alt=""><div class="close__text">esc</div></span></button>
 				<div class="social-modal__content">
 					<button type="button" class="close close__sm-modal" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><img src="/static/images/icons/close-modal.svg" alt=""></span></button>
-					<div class="social-modal__channel social-modal__channel--technology">Technology</div>
-					<div class="social-modal__text">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec sed odio dui.</div>
+					<div class="social-modal__channel social-modal__channel--technology">{{ channel }}</div>
+					<div class="social-modal__text">{{ text }}</div>
 					<div class="article__profile">
-						<span class="profile__user_image" style="background-image: url('https://unsplash.it/56/56'); height: 56px; width: 56px; background-size: cover; display: inline-block; border-radius: 50%;"></span>
+						<span class="profile__user_image" style="background-image: url('{{ authorImage }}'); height: 56px; width: 56px; background-size: cover; display: inline-block; border-radius: 50%;"></span>
 						<div class="profile__author_wrap">
-							<span class="article__author">By Leah Prince</span>
-							<a href="http://cog-boilerplate-craft.dev/profile/leah-prince" class="button button__follow">Follow</a>
+							<span class="article__author">By {{ author }}</span>
+							<a href="/user-posts/{{ author }}" class="button button__follow">Follow</a>
 						</div>
 					</div>
 				</div>
 				<div class="social-modal__image_container">
 					<div class="social-modal__image_wrap">
-						<img class="social-modal__image" src="https://unsplash.it/800/800">
+						{% if image is defined and embed is null %}
+							<img class="social-modal__image" src="{{ image.url() }}">
+						{% elseif embed is defined  %}
+							<div class="social-modal__video-wrap">
+								{{ embed.safeHtml|raw }}
+							</div>
+						{% endif %}
 					</div>
 				</div>
 				{#<p>#}
@@ -26,5 +34,4 @@
 				{#<p>{{ date }}</p>#}
 			</div>
 		</div>
-	</div>
 {% endblock %}

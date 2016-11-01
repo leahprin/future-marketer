@@ -204,6 +204,13 @@ div.home, div.channel, div.profile {
         height: 100%;
         width: 100%;
         flex: 1 0 53%;
+        display: flex;
+        justify-content: center;
+      }
+      &__text-wrap {
+        .card__play-button {
+          display: none;
+        }
       }
       &__read-time {
         @include text-md($color: $body-text, $font-multiplier: 0.9);
@@ -223,6 +230,9 @@ div.home, div.channel, div.profile {
     .card .card__content .card__channel-wrap .card__channel {
       color: $white;
     }
+    .card__image {
+      display: none;
+    }
     .card {
       .card__read-more {
         opacity: 1;
@@ -230,6 +240,16 @@ div.home, div.channel, div.profile {
       &__content {
         .card__read-more, .card__author {
           color: white;
+        }
+      }
+      &__text-wrap {
+        display: flex;
+        .card__play-button {
+          width: 56px;
+          height: 56px;
+          margin-right: 15px;
+          position: relative;
+          top: 4px;
         }
       }
     }

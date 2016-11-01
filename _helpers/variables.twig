@@ -9,12 +9,14 @@
 {% set channel = article.channel.first() %}
 {% if article.image.first().url is defined %}
 	{% set image = article.image.first() %}
+	{% set embed = craft.embeddedAssets.fromAsset(image) %}
 {% endif %}
 {% set link = article.url %}
 {% if article.author.photoUrl is defined %}
 	{% set authorImage = article.author.photoUrl %}
 {% endif %}
 {% set date = article.postDate | date("d M, Y") %}
+{% set slug = article.slug %}
 {# Need to set all of the variables for them to be avaialle outside the IF loops below.
 More info: http://twig.sensiolabs.org/doc/tags/set.html #}
 {% set cardType = '' %}

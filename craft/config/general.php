@@ -16,6 +16,7 @@ return array(
 	'*' => array(
 		'devMode' => true,
 		'siteName' => 'Madeline Theme - Cognitives',
+		'extraAllowedFileExtensions' => 'json',
 		'environmentVariables' => array(
 				'basePath' =>  BASE_PATH,
 				'baseUrl'  => BASE_URL,
