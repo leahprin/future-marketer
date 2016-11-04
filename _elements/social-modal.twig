@@ -19,11 +19,15 @@
 				</div>
 				<div class="social-modal__image_container">
 					<div class="social-modal__image_wrap">
-						{% if image is defined and embed is null %}
-							<img class="social-modal__image" src="{{ image.url() }}">
-						{% elseif embed is defined  %}
+						{% if hasVideo == 'y' %}
 							<div class="social-modal__video-wrap">
-								{{ embed.safeHtml|raw }}
+								<div>
+									{{ embed|raw }}
+								</div>
+							</div>
+						{% elseif image %}
+							<div class="social-modal__image" style="background-image: url('{{ image }}');" >
+								<img class="social-modal__image_image" src="{{ image }}" alt="" />
 							</div>
 						{% endif %}
 					</div>

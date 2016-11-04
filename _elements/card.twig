@@ -6,16 +6,14 @@
 
 {% block content  %}
 
-	{% set imageCrop = {
-	mode: 'crop',
-	width: 1000,
-	height: 1000,
-	quality: 60,
-	position: 'center-center'
-	} %}
+	{% set cardLinkClasses %}
+		card card--{{ channel|lower }} link
+		{% if cardType == 'social' %}card__{{ network|lower }}{% endif %}
+		{% if thumbnail == '' %} card__no-image{% endif %}
+	{% endset %}
 
 	<article class="card--{{ cardType }}">
-		<a href="{{link}}" data-slug="{{ slug }}" class="card card--{{ channel|lower }} {% if cardType == 'social' %}card__{{ network|lower }}{% endif %} {% if image is not defined %}card__no-image{% endif %} link" {% if image is defined and embed is null %}style="background-image: url('{{ image.url(imageCrop) }}'); background-size: cover;background-position:center center;"{% elseif embed is defined  %}style="background-image: url('{{ embed.thumbnailUrl }}'); background-size: cover;background-position:center center;"{% endif %}>
+		<a href="{{link}}" data-slug="{{ slug }}" class="{{cardLinkClasses|replace({"\n":''})}} link" {% if thumbnail != '' %}style="background-image: url('{{ thumbnail }}');"{% endif %}>
 			<div class="card__overlay">
 				<div class="card__content_wrap">
 					{% include '_elements/_admin-actions.twig' %}
@@ -46,13 +44,11 @@
 							</div>
 						{% endif %}
 					</div>
-					{% if image is defined and embed is null %}
-						<div class="card__image" style="background-image: url('{{ image.url() }}'); background-size: cover;background-position:center center;"></div>
-					{% elseif embed is defined  %}
-						<div class="card__image" style="background-image: url('{{ embed.thumbnailUrl }}'); background-size: cover;background-position:center center;">
+					<div class="card__image" {% if thumbnail != '' %}style="background-image: url('{{ thumbnail }}');background-size: cover;background-position:center center;"{% endif %}>
+						{% if hasVideo == 'y' %}
 							<img class="card__play-button" src="/static/images/icons/play-white.svg" alt="Play video button">
-						</div>
-					{% endif %}
+						{% endif %}
+					</div>
 				</div>
 			</div>
 		</a>

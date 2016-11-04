@@ -3,6 +3,9 @@
   display: flex;
   min-height: 471px;
   background-color: $white;
+  background-size: cover;
+  background-position:center center;
+  background-repeat: no-repeat;
   &__no-image {
     .card__channel {
       //background-color: $white;
