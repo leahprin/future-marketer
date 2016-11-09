@@ -50,11 +50,8 @@ body {
 }
 
 h1 {
-  font-weight:700;
-  font-size: 44px;
-  color: #4A4A4A;
-  letter-spacing: -0.61px;
-  line-height: 45px;
+  @include text-lg($color: $body-text);
+
 }
 h2 {
   font-size: 22px;

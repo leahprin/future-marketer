@@ -17,9 +17,8 @@
   &__info-mobile {
     text-align: center;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     > * {
-      flex: 0 1 100%;
       display: inline-block;
       margin-bottom: 10px;
       @include text-sm($color: $white, $font-multiplier: 0.78, $line-height: 1.73);
@@ -97,6 +96,7 @@
       display: flex;
       align-items: center;
       width: 20%;
+      justify-content: flex-end;
     }
   }
 
@@ -107,8 +107,8 @@
       display: flex;
       flex-wrap: wrap;
       margin-bottom: 8px;
+      flex-direction: column;
       > * {
-        flex: 0 1 100%;
         display: inline-block;
         @include text-sm($color: $white, $font-multiplier: 0.78, $line-height: 1.73);
       }

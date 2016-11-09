@@ -1,15 +1,25 @@
 .slides {
     background-color:$gray;
     margin-bottom:20px;
+    ul li {
+        list-style-type: none!important;
+    }
 }
 .slide {
-    background-size:cover;
-    height:400px;
     padding:0px;
     position:relative;
     text-align:center;
     vertical-align:middle;
-    
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    @include desktop-sm {
+        height:470px;
+    }
+    @include desktop-lg {
+        height: 600px;
+    }
+
     video {
         width:100%;
         height:100%;
@@ -29,7 +39,7 @@
         bottom:120px;
         padding-left:0px;
         padding-right:0px;
-        
+
         > p {
             width:880px;
             margin:0px auto;

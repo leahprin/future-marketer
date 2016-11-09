@@ -2,6 +2,34 @@
 
 {% block content %}
 
-<h1>TODO: need to figure out what a blog is?</h1>
+    {# First, grab the username from the URI #}
+    {% set username = craft.request.segment(2) %}
+
+    {# Then, grab the user based on the username %}#}
+    {% set user = craft.users.username(username).first() %}
+    {% if user %}
+        <div class="profile">
+
+            <div class="profile__header">
+                <div class="profile__background" {% if image is defined %}style="background-image: url('{{ image }}'); background-size: cover;"{% endif %}>
+                    <h1 class="profile__heading">{{user}} Posts</h1>
+                </div>
+                <div class="user-header">
+                    <div class="user-header__display">
+                        <span class="user-header__image" style="background-image: url('{{ user.photoUrl }}'); background-size: cover; display: inline-block; border-radius: 50%;"></span>
+                        <div class="user-header__name">{{user}}</div>
+                        <a href="#" class="button button__follow button__follow--reverse user-header__share">Follow</a>
+                    </div>
+                </div>
+            </div>
+
+            {% set articles = craft.entries.section('posts').type('article').authorId(user.id).find() %}
+
+            {% if articles|length > 0 %}
+                {% include '_elements/_card-layout.twig' with {articles: articles} %}
+            {% endif %}
+        </div>
+
+    {% endif %}
 
 {% endblock %}

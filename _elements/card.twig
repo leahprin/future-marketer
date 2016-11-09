@@ -22,7 +22,7 @@
 							<h5 class="card__channel">{{ channel }}</h5>
 						</div>
 						{% if cardType == 'social' %}
-							{% if network == 'youtube' or network == 'vimeo' %}
+							{% if hasVideo == 'y' %}
 								<div class="card__text-wrap">
 									<img class="card__play-button" src="/static/images/icons/play-white.svg" alt="Play video button">
 									<p class="card__text">
@@ -44,19 +44,16 @@
 							</div>
 						{% endif %}
 					</div>
-					<div class="card__image" {% if thumbnail != '' %}style="background-image: url('{{ thumbnail }}');background-size: cover;background-position:center center;"{% endif %}>
-						{% if hasVideo == 'y' %}
-							<img class="card__play-button" src="/static/images/icons/play-white.svg" alt="Play video button">
-						{% endif %}
-					</div>
+					{% if thumbnail != '' %}
+						<div class="card__image" style="background-image: url('{{ thumbnail }}');background-size: cover;background-position:center center;">
+							{% if hasVideo == 'y' %}
+								<img class="card__play-button" src="/static/images/icons/play-white.svg" alt="Play video button">
+							{% endif %}
+						</div>
+					{% endif %}
 				</div>
 			</div>
 		</a>
 	</article>
-
-	{# For demo purposes only, we don't want this many modals redering per page #}
-	<div class="modal" id="{{ slug }}" role="dialog">
-		{% include '_elements/social-modal' with {article: article} %}
-	</div>
 
 {% endblock %}
