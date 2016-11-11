@@ -20,8 +20,6 @@
       flex: 0 1 auto!important;
     }
     .card__content_wrap {
-      background-color: white;
-      align-items: center;
       flex-direction: row!important;
     }
 
@@ -87,7 +85,7 @@
     margin-right: 3px;
   }
   &__channel {
-    @include text-sm($letter-spacing: 0.21px, $font-multiplier: 0.68, $color: $white);
+    @include text-sm($letter-spacing: 0.21px, $font-multiplier: 0.68, $color: $body-text);
     margin-bottom: 22px;
     display: inline-block;
     padding-bottom: 12px;
@@ -100,6 +98,7 @@
       width: 20px;
       height: 4px;
       border-radius: 100px;
+      background-color: $body-text;
     }
   }
   &__headline {
@@ -175,10 +174,10 @@
 .col-half,
 .col-third,
 .col-quarter {
-  margin-bottom: 30px;
+  margin: 0 15px 30px;
 }
 
-div.home, div.channel, div.profile {
+div.home, div.channel, div.profile, .card-container {
   > .col-three-quarters,
   > .col-two-thirds,
   > .col-half,
@@ -194,6 +193,8 @@ div.home, div.channel, div.profile {
       }
       &__headline {
         color: $body-text;
+        max-height: 62px;
+        overflow: hidden;
       }
       &__content_wrap {
         flex-direction: column;
@@ -226,14 +227,16 @@ div.home, div.channel, div.profile {
           margin-right: 5px;
         }
       }
-
+      .card__channel {
+        color: $body-text;
+        &::after {
+          background-color: $body-text;
+        }
+      }
     }
   }
   > .col-full,
   > .col-third-container .col-third {
-    .card .card__content .card__channel-wrap .card__channel {
-      color: $white;
-    }
     .card__image {
       display: none;
     }
@@ -287,7 +290,7 @@ div.home, div.channel, div.profile {
       width: 100%;
       max-width: 1170px;
       @include desktop-sm {
-        padding: 50px 0 20px;
+        padding: 50px 30px 20px;
       }
       @include desktop-lg {
         max-width: 1580px;
@@ -345,15 +348,12 @@ div.home, div.channel, div.profile {
 .col-third-container {
   display: flex;
   .col-third {
-    margin-bottom: 0;
+    margin: 0;
     .card {
       min-height: 0;
-      height:168px;
+      height:157px;
       margin-bottom: 0;
       position: relative;
-      @include tablet-lg {
-        height: 157px;
-      }
     }
     .card__content_wrap {
       background-color: rgba(0, 0, 0, 0.34);
@@ -362,6 +362,9 @@ div.home, div.channel, div.profile {
     .card__no-image {
       .card__content_wrap {
         background-color: rgba(0, 0, 0, 0)!important;
+        .card__channel {
+          color: $body-text;
+        }
       }
     }
     .card__content {
@@ -418,9 +421,6 @@ div.home, div.channel, div.profile {
   }
   article .card {
     height: 100%;
-    @include desktop-sm {
-      margin-right: 30px;
-    }
     // Here to overwrite base card styles
     .card {
       &__text {
@@ -457,6 +457,7 @@ div.home, div.channel, div.profile {
 }
 
 .card-container {
+  @extend .container;
   display: flex;
   flex-wrap: wrap;
 }

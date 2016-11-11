@@ -20,6 +20,14 @@
 
 <body>
 <div id="container">
+	{% set channels = craft.categories.group('channels') %}
+
+	{% set channelObject = [] %}
+
+	{% for channel in channels %}
+		{% set channelObject = channelObject|merge({(channel|lower ~ ''): ('channel-' ~ loop.index)})  %}
+	{% endfor %}
+
 	{% include '_elements/_header' %}
 
 	<main id="content" role="main">

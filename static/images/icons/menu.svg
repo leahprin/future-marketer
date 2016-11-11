@@ -4,8 +4,8 @@
     <title>Hamburger</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.8">
-        <g id="Theme-2-Home---mobile" transform="translate(-337.000000, -41.000000)" fill="#FFFFFF">
+    <g id="Mobile" stroke="none" stroke-width="1" fill-rule="evenodd" opacity="0.8">
+        <g id="Theme-2-Home---mobile" transform="translate(-337.000000, -41.000000)">
             <g id="Header">
                 <g id="Hamburger" transform="translate(337.000000, 41.000000)">
                     <rect id="Rectangle" x="0" y="0" width="20" height="2"></rect>

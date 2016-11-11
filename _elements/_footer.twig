@@ -37,7 +37,7 @@
 
         <div class="footer__desktop">
             <div class="footer__left">
-                <a href="/" class="footer__logo"><img src="/static/images/logo.svg" width="100" /></a>
+                <a href="/" class="footer__logo"><img src="/static/images/logo.svg"/></a>
                 <div class="footer__navigation">
                     <div class="header__navigation-row">
                         <ul class="header__navigation-list">
@@ -45,7 +45,7 @@
                             {% for i in 0..4 %}
                                 {% set entry = entries[i] %}
                                 <li class="header__navigation-item">
-                                    <a href="{{ entry.url }}" class="header__navigation-link header__navigation-item--{{ entry.title|lower }}">
+                                    <a href="{{ entry.url }}" class="header__navigation-link header__navigation-item--{{ entry.title|lower }} {{ channelObject[entry.title|lower] }}">
                                         {{ entry.title }}
                                     </a>
                                 </li>
@@ -58,7 +58,7 @@
                                     <ul class="dropdown-menu" aria-labelledby="dropdown1">
                                         {% for i in 5..(entries|length - 1)%}
                                             {% set entry = entries[i] %}
-                                            <li class="header__navigation-item--{{ entry.title|lower }}"><a href="{{ entry.url }}" class="">{{ entry.title }}</a></li>
+                                            <li class="header__navigation-item--{{ entry.title|lower }} {{ channelObject[entry.title|lower] }}"><a href="{{ entry.url }}" class="">{{ entry.title }}</a></li>
                                         {% endfor %}
                                     </ul>
                                 </li>

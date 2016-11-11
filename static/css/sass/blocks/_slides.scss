@@ -13,8 +13,11 @@
     background-size: cover;
     background-position: center;
     height: 300px;
+    @include tablet {
+        height:380px;
+    }
     @include desktop-sm {
-        height:470px;
+        height: 470px;
     }
     @include desktop-lg {
         height: 600px;

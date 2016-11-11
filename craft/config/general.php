@@ -22,7 +22,7 @@ return array(
 				'baseUrl'  => BASE_URL,
 				'userSessionDuration' => false,
 				'omitScriptNameInUrls' => true,
-		)
+		),
 	),
 
 );

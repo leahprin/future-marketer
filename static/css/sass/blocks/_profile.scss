@@ -97,9 +97,6 @@
   }
   .col-third {
     margin-bottom: 0;
-    @include tablet-lg {
-      flex: 0 1 33.333%;
-    }
   }
 }
 

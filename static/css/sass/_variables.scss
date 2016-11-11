@@ -2,9 +2,10 @@ $light-color:       #fff;
 $gray-color:        #ebebeb;
 $dark-color:        #000000;
 $grey:			    #808080;
-$body-text:         #4A4A4A;
-$header-background: #363636;
-$body-color:        rgb(236,236,236);
+$body-text:         #2D2D2D;
+$header-background: #fff;
+$body-color:        rgb(255, 255, 255);
+$icon-color:        #575757;
 
 $highlight-color:   #36647E;
 $quote-color:       #662d91;
@@ -15,7 +16,7 @@ $slide-color:       #0076a3;
 $blue:              #46a5fc;
 $transparent:       rgba(0,0,0,0);
 $border-color:      #e0e0e0;
-$placeholder:       rgba(255, 255, 255, 0.8);
+$placeholder:       rgba(45, 45, 45, 0.8);
 
 $error-color:       #e73d4a;
 $success-color:     #4FE8C4;
@@ -25,40 +26,49 @@ $white:             #ffffff;
 
 $sections: (
         0:    (
-                color: #9013FE,
-                background-color: rgba(144, 19, 254, 0.3)
+                color: #E2F0D5,
         ),
         1: (
-                color: #52A097,
-                background-color: rgba(82, 160, 151, 0.3)
+                color: #FCF8B9,
         ),
         2:        (
-                color: #41A7CD,
-                background-color: rgba(65, 167, 205, 0.3)
+                color: #DAE0E9,
         ),
         3:         (
-                color: #FFA702,
-                background-color: rgba(255, 167, 2, 0.3)
+                color: #D0EDF5,
         ),
         4:     (
-                color: #CF1FB7,
-                background-color: rgba(207, 31, 183, 0.3)
+                color: #FDC3C2,
         ),
-        5:       (
-                color: rgb(162, 129, 234),
-                background-color: rgba(162, 129, 234, 0.3)
+        5:    (
+                color: #E2F0D5,
         ),
-        6:         (
-                color: rgb(108, 210, 248),
-                background-color: rgba(108, 210, 248, 0.3)
+        6: (
+                color: #FCF8B9,
         ),
-        7:      (
-                color: rgb(93, 228, 216),
-                background-color: rgba(93, 228, 216, 0.3)
+        7:        (
+                color: #DAE0E9,
         ),
-        8:      (
-                color: rgb(87, 211, 149),
-                background-color: rgba(87, 211, 149, 0.3)
+        8:         (
+                color: #D0EDF5,
+        ),
+        9:     (
+                color: #FDC3C2,
+        ),
+        10:    (
+                color: #E2F0D5,
+        ),
+        11: (
+                color: #FCF8B9,
+        ),
+        12:        (
+                color: #DAE0E9,
+        ),
+        13:         (
+                color: #D0EDF5,
+        ),
+        14:     (
+                color: #FDC3C2,
         )
 );
 
@@ -84,7 +94,7 @@ $grid-gutter-width: 20px;
 // Dimensions
 $screen-xs: 480px;  // Mobile
 $screen-sm: 768px;  // Tablet
-$screen-md: 1190px; // Desktop
+$screen-md: 1200px; // Desktop
 $screen-lg: 1600px; // Large desktop
 
 // Font

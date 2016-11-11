@@ -8,26 +8,36 @@
     {# Then, grab the user based on the username %}#}
     {% set user = craft.users.username(username).first() %}
     {% if user %}
-        <div class="profile">
+        <div class="blog">
 
-            <div class="profile__header">
-                <div class="profile__background" {% if image is defined %}style="background-image: url('{{ image }}'); background-size: cover;"{% endif %}>
-                    <h1 class="profile__heading">{{user}} Posts</h1>
-                </div>
-                <div class="user-header">
-                    <div class="user-header__display">
-                        <span class="user-header__image" style="background-image: url('{{ user.photoUrl }}'); background-size: cover; display: inline-block; border-radius: 50%;"></span>
-                        <div class="user-header__name">{{user}}</div>
-                        <a href="#" class="button button__follow button__follow--reverse user-header__share">Follow</a>
+            <div class="blog__header">
+                <div class="blog__background" {% if image is defined %}style="background-image: url('{{ image }}'); background-size: cover;"{% endif %}>
+                    <div class="blog__user-header">
+                        <div class="blog__user-header__display">
+                            <span class="blog__user-header__image" style="background-image: url('{{ user.photoUrl }}'); background-size: cover; display: inline-block; border-radius: 50%;"></span>
+                            <div class="blog__user-header__name">{{user}}</div>
+                            <div class="button-container">
+                                <a href="javascript:void(0)" class="button header_actions header_actions__share article__header-item">Share
+                                    {% include '/_elements/share-popup.twig' %}
+                                </a>
+                                <a href="#" class="button button__follow button__follow--reverse blog__user-header__share">Follow</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog__title">
+                        <h1 class="blog__heading">{{user}} Posts</h1>
+                        <span class="blog__description">{{ user.authorBio }}</span>
                     </div>
                 </div>
             </div>
 
             {% set articles = craft.entries.section('posts').type('article').authorId(user.id).find() %}
 
-            {% if articles|length > 0 %}
-                {% include '_elements/_card-layout.twig' with {articles: articles} %}
-            {% endif %}
+            <div class="card-container">
+                {% if articles|length > 0 %}
+                    {% include '_elements/_card-layout-thirds.twig' with {articles: articles} %}
+                {% endif %}
+            </div>
         </div>
 
     {% endif %}

@@ -9,7 +9,7 @@
   &__follow {
     font-size: 13px;
     color: #FFF;
-    padding: 2px 10px 4px;
+    padding: 3px 10px 4px;
     max-width: 62px;
     border: 1px solid #fff;
     &:hover, &:active {
@@ -17,10 +17,9 @@
       color: rgb(65, 83, 90);
     }
     &--reverse {
-      color: rgb(65, 83, 90);
-      border: 1px solid rgb(65, 83, 90);
+      background-color: #D0EDF5;
       &:hover, &:active {
-        background: rgb(65, 83, 90);
+        background-color: white;
         color: #FFF;
       }
     }
@@ -40,6 +39,15 @@
       color: #576b74;
       background-color: $white;
     }
+  }
+}
+
+.blog {
+  .button__follow {
+    padding: 8px 16px 9px;
+    margin-left: 20px;
+    border-radius: 2px;
+    max-width: 75px;
   }
 }
 

@@ -12,7 +12,7 @@
 		{% if thumbnail == '' %} card__no-image{% endif %}
 	{% endset %}
 
-	<article class="card--{{ cardType }}">
+	<article class="card--{{ cardType }} {{ channelObject[channel|lower] }}">
 		<a href="{{link}}" data-slug="{{ slug }}" class="{{cardLinkClasses|replace({"\n":''})}} link" {% if thumbnail != '' %}style="background-image: url('{{ thumbnail }}');"{% endif %}>
 			<div class="card__overlay">
 				<div class="card__content_wrap">

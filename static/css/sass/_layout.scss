@@ -9,10 +9,10 @@
         margin-right:auto;
     }
     @include desktop {
-        width:$screen-md - $grid-gutter-width;
+        width:$screen-md;
     }
     @include desktop-lg {
-        width:$screen-lg - $grid-gutter-width;
+        width:$screen-lg;
     }
     &::before {
         display: none;
@@ -20,6 +20,11 @@
     &::after {
         display: none;
     }
+}
+
+.layout-container {
+    margin-left: -15px;
+    margin-right: -15px;
 }
 
 div.home, div.channel, div.profile, div.channels {
@@ -65,23 +70,23 @@ div.home.additional-articles__wrap {
     &-quarter-short {
         flex: 1 0 308px;
         @include desktop-sm {
-            flex: 1 0 25%;
+            flex: 1 0 calc(25% - 30px);
         }
 
     }
     &-third,
     &-third-short {
-        flex: 1 0 100%;
+        flex: 1 0 calc(100% - 30px);
         @include tablet-lg {
-            flex: 1 0 33.3333%;
+            flex: 1 0 calc(33.3333% - 30px);
         }
     }
     &-third-container {
-        flex: 1 0 100%;
+        flex: 1 0 calc(100% - 30px);
         flex-wrap: wrap;
         display: flex;
         @include tablet-lg {
-            flex: 1 0 33.3333%;
+            flex: 1 0 calc(33.3333% - 30px);
             flex-wrap: nowrap;
             display: block;
             flex-direction: column;
@@ -96,17 +101,17 @@ div.home.additional-articles__wrap {
     &-half {
         flex: 1 0 308px;
         @include tablet-lg {
-            flex: 1 0 50%;
+            flex: 1 0 calc(50% - 30px);
         }
     }
     &-two-thirds,
     &-two-thirds-short {
-        flex: 1 0 66.6666%;
+        flex: 1 0 calc(66.6666% - 30px);
     }
     &-three-quarters {
         flex: 1 0 75%;
     }
     &-full {
-        flex: 1 0 100%;
+        flex: 1 0 calc(100% - 30px);
     }
 }

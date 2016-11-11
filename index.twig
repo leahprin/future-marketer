@@ -4,16 +4,16 @@
 
     {% set limit = 20 %}
     {% set articles = craft.entries.section('posts').find() %}
-    {% if articles[0] is defined %}
-        <div class="col-full">
-            {% include '_elements/card' with {article: articles[0]} %}
+
+
+    <div class="layout-container">
+        <div class="home">
+            {% if articles|length > 0 %}
+                {% include '_elements/_card-layout.twig' with {articles: articles} %}
+            {% endif %}
         </div>
-    {% endif %}
-    <div class="home">
-        {% if articles|length > 0 %}
-            {% include '_elements/_card-layout.twig' with {articles: articles} %}
-        {% endif %}
     </div>
+
 
     <div class="row ajaxArticles" data-existing-nonpinned-count="{#{{articlesArr.existingNonPinnedCount}}#}"></div>
     <div class="row text-center has-margin-bottom-20">

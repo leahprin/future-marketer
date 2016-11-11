@@ -10,7 +10,7 @@
     position: 'center-center'
 } %}
 
-<a href="{{channel.url}}" class="channel-card channel-card__{{ channel.title|lower }} {% if image is not defined %}channel__no-image{% endif %}" {% if image is defined %}style="background-image: url('{{ image.url(channelThumb) }}');"{% endif %}>
+<a href="{{channel.url}}" class="channel-card channel-card__{{ channel.title|lower }} {{ channelObject[channel|lower] }} {% if image is not defined %}channel__no-image{% endif %}" {% if image is defined %}style="background-image: url('{{ image.url(channelThumb) }}');"{% endif %}>
     <div class="channel-card__overlay">
         <div class="channel-card__content_wrap">
             <div class="channel-card__content">

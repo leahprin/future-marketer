@@ -1,163 +1,181 @@
 .article {
   &__body {
     background-color: white;
-    margin-right:26px;
-    margin-left: 26px;
+    margin-right: 10px;
+    margin-left: 10px;
+    @include tablet {
+      margin-right: 50px;
+      margin-left:50px;
+    }
   }
-  bottom: 94px;
-    @extend .container;
+  bottom: 82px;
+  padding: 0 20px;
+  margin: auto;
+  background-color: $white;
+  position: relative;
+  @include tablet {
     padding: 0 30px;
-    background-color: $white;
-    position: relative;
-    @include desktop-sm {
-        padding:0;
-    }
-    &::before {
-        display: none;
-    }
-    &::after {
-        display: none;
-    }
-    img {
-        width: 100%;
-        margin-top: 30px;
-        margin-bottom: 60px;
+    bottom: 94px;
+  }
+  @include desktop-sm {
+    padding:0;
+    max-width: 1030px;
+  }
+  &::before {
+    display: none;
+  }
+  &::after {
+    display: none;
+  }
+  img {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 60px;
 
+  }
+  h1 {
+    @include text-lg($font-weight: 700, $color: $body-text,$font-multiplier-sm:1.4);
+    margin-bottom: 23px;
+  }
+  h2 {
+    @include text-lg($font-weight: 700, $color: $body-text, $font-multiplier-sm:1.25, $font-multiplier: 2);
+    margin-bottom: 23px;
+  }
+  p {
+    @include text-md($line-height: 1.66);
+    margin-bottom: 23px;
+  }
+  p + ol, p + ul {
+    //margin-top: -20px;
+  }
+  ol, ul {
+    margin-bottom: 15px;
+    margin-left: 15px;
+    li {
+      @include text-md($font-multiplier: 1.11);
+      list-style-position: inside;
     }
-    h1 {
-      @include text-lg($font-weight: 700, $color: $body-text,$font-multiplier-sm:1.4);
-      margin-bottom: 23px;
+  }
+  ul li {
+    list-style-type: disc;
+  }
+  ol li {
+    list-style-type: decimal;
+  }
+  img {
+    width: calc(100% + 20px);
+    margin-left: -10px;
+    margin-right: -10px;
+    @include desktop-sm {
+      width: 1170px;
+      margin-top: 30px;
+      margin-bottom: 60px;
+      margin-left: -200px;
+      margin-right: -200px;
     }
-    h2 {
-      @include text-lg($font-weight: 700, $color: $body-text, $font-multiplier-sm:1.25, $font-multiplier: 2);
-      margin-bottom: 23px;
+  }
+  &__image {
+    height:300px;
+    width: 100%;
+    @include tablet {
+      height:380px;
     }
-    p {
-      @include text-md($line-height: 1.66);
-      margin-bottom: 23px;
+    @include desktop-sm {
+      margin-left: auto;
+      margin-right: auto;
+      width: 1170px;
+      height: 470px;
     }
-		p + ol, p + ul {
-			//margin-top: -20px;
-		}
-    ol, ul {
-			margin-bottom: 15px;
-			margin-left: 15px;
-        li {
-          @include text-md($font-multiplier: 1.11);
-          list-style-position: inside;
-        }
+    @include desktop-lg {
+      width: 1580px;
+      height: 600px;
     }
-		ul li {
-			list-style-type: disc;
-		}
-		ol li {
-			list-style-type: decimal;
-		}
-    img {
-        width: calc(100% + 20px);
-        margin-left: -10px;
-        margin-right: -10px;
-        @include desktop-sm {
-            width: 1170px;
-            margin-top: 30px;
-            margin-bottom: 60px;
-            margin-left: -200px;
-            margin-right: -200px;
-        }
+  }
+  &__container {
+    max-width: 750px;
+    margin: 0 auto 0;
+    text-align: left;
+    @include desktop-lg {
+      max-width: 1080px;
     }
-    &__image {
-        height:260px;
-        width: calc(100% + 30px);
-        margin-left: -15px;
-        margin-right: -15px;
-        @include tablet {
-            margin-left: calc(-16px - 1%);
-            margin-right: calc(-16px - 1%);
-            width: calc(102% + 32px);
-            height: 470px;
-        }
-        @include desktop-sm {
-            margin-left:0;
-            margin-right:0;
-            width:100%;
-        }
+  }
+  &__channel_wrap {
+    text-align: left;
+    width: 100%;
+    position: relative;
+  }
+  &__channel {
+    margin-bottom: 22px;
+    display: inline-block;
+    padding-bottom: 12px;
+    position: relative;
+    @include text-sm($letter-spacing: 0.21px, $font-multiplier: 0.68, $color: $body-text);
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 20px;
+      height: 4px;
+      border-radius: 100px;
+      background-color: $body-text;
     }
-    &__container {
-      max-width: 770px;
-      margin: 0 auto 0;
-      text-align: left;
-      @include desktop-lg {
-        max-width: 1080px;
-      }
+  }
+  &__author {
+    @include text-sm($font-weight: 700);
+    margin-bottom: 7px;
+  }
+  &__header {
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding:25px 0px;
+    @include tablet {
+      display: flex;
+      padding: 30px 0;
     }
-    &__channel_wrap {
-        text-align: left;
-        width: 100%;
-        position: relative;
+    @include desktop-sm {
+      padding: 37px 32px;
     }
-    &__channel {
-      margin-bottom: 22px;
-      display: inline-block;
-      padding-bottom: 12px;
-      position: relative;
-      &::after {
-        content: "";
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 20px;
-        height: 4px;
-        border-radius: 100px;
-      }
-    }
-    &__author {
-      @include text-sm($font-weight: 700);
-      margin-bottom: 7px;
-    }
-    &__header {
+    &_actions {
+      text-align: center;
+      margin-top: 18px;
+      display: flex;
       justify-content: space-between;
-      margin-bottom: 15px;
-      padding:30px 0px;
-        @include tablet {
-          display: flex;
-        }
-      @include desktop-sm {
-        padding: 37px 70px;
-      }
-        &_actions {
-          text-align: center;
-          margin-top: 18px;
-          display: flex;
-          justify-content: space-between;
-            @include tablet {
-                margin-top: 0;
-                text-align: left;
-            }
-        }
-    }
-    &__profile {
-        justify-content: flex-start;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        @include tablet {
-            justify-content: flex-start;
-            align-items: stretch;
-            flex-direction: row;
-        }
-    }
-    &__headline {
+      @include tablet {
+        margin-top: 0;
         text-align: left;
+      }
     }
-    &__date {
-      @include text-sm($font-multiplier:0.72, $color: $body-text);
-      text-align: left;
-      margin-bottom: 22px;
+  }
+  &__profile {
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    @include tablet {
+      justify-content: flex-start;
+      align-items: stretch;
+      flex-direction: row;
     }
-    &__intro, &__intro p {
-      @include text-md($font-multiplier:1.34, $line-height: 1.41);
-      margin-bottom: 30px;
+  }
+  &__headline {
+    text-align: left;
+  }
+  &__date {
+    @include text-sm($font-multiplier:0.72, $color: $body-text);
+    text-align: left;
+    margin-bottom: 22px;
+  }
+  &__intro, &__intro p {
+    @include text-md($font-multiplier:1.34, $line-height: 1.41);
+    margin-bottom: 30px;
+  }
+  .header_actions__share .share-popup {
+    @media (max-width: 767px) {
+      left: -204px;
+      bottom: 42px;
     }
+  }
 }
 
 .show-comments__wrap {
@@ -175,10 +193,9 @@
 }
 
 .additional-articles__header {
-	border-top: 1px solid rgba(0,0,0,0.1);
-	padding-top: 80px;
-	margin-bottom: 50px!important;
-	@include text-lg($color: $body-text);
+  padding-top: 80px;
+  margin-bottom: 50px!important;
+  @include text-lg($color: $body-text);
 }
 
 .show-comments {
@@ -191,57 +208,57 @@
 }
 
 .profile__author_wrap {
-    align-items: flex-start;
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    margin-bottom: 2px;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin-bottom: 2px;
   margin-left: 15px;
   @include tablet {
-        align-items: flex-start;
-        align-self: center;
-        margin-left: 15px;
-    }
+    align-items: flex-start;
+    align-self: center;
+    margin-left: 15px;
+  }
 }
 
 .heading {
-    font-weight: 300;
-    font-size: 39px;
-    color: #384362;
-    letter-spacing: -1.01px;
-    line-height: 45px;
-    margin-bottom: 45px;
-    width: 100%;
+  font-weight: 300;
+  font-size: 39px;
+  color: #384362;
+  letter-spacing: -1.01px;
+  line-height: 45px;
+  margin-bottom: 45px;
+  width: 100%;
 }
 
 .DisqusCommentArea {
-    width:100%;
-    margin-top:40px;
-    display:inline-block;
-    border-top:2px solid rgba($hover-color, 0.75);
+  width:100%;
+  margin-top:40px;
+  display:inline-block;
+  border-top:2px solid rgba($hover-color, 0.75);
 }
 
 [class*="medium-insert-"], .article-content-section {
-		body {
-			height: auto;
-		}
+  body {
+    height: auto;
+  }
+  .slide__caption {
+    bottom:0px;
+    width:100%;
+    padding:15px 25px;
+
+    > p {
+      width:100%;
+      margin-bottom:0px!important;
+      font-size:($baseFontSize * 1) - 1!important;
+    }
+  }
+
+  .video {
     .slide__caption {
-        bottom:0px;
-        width:100%;
-        padding:15px 25px;
-
-        > p {
-            width:100%;
-            margin-bottom:0px!important;
-            font-size:($baseFontSize * 1) - 1!important;
-        }
+      display:none;
     }
-
-    .video {
-        .slide__caption {
-            display:none;
-        }
-    }
+  }
 }
 
 .medium-insert-images {
@@ -300,32 +317,32 @@
 }
 
 .medium-insert-vimeo, .medium-insert-youtube, .medium-insert-instagram {
-	position: relative;
-	padding-bottom: 56.25%;
-	height: 0;
-	overflow: hidden;
-	max-width: 100%;
-	clear: both;
-	iframe, object, embed {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-	}
-	.medium-insert-vim div {
-		max-width: none!important;
-	}
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  clear: both;
+  iframe, object, embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .medium-insert-vim div {
+    max-width: none!important;
+  }
 
 }
 
 .medium-insert-instagram {
-	max-width: 800px;
-	margin-left: auto;
-	margin-right: auto;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
 video.cloudVideo {
-    width:100%;
+  width:100%;
 }
