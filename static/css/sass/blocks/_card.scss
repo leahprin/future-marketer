@@ -24,8 +24,8 @@
     }
 
   }
-  &__default {
-
+  &__channel-wrap {
+    margin-bottom: auto;
   }
   &__content_wrap {
     display: flex;
@@ -76,6 +76,8 @@
   }
   &__author {
     @include text-sm($letter-spacing: 0.012em);
+    // Padding to make .card__author same height as read estimate
+    padding-top: 17px;
   }
   &__network-icon {
     position: relative;
@@ -189,7 +191,8 @@ div.home, div.channel, div.profile, .card-container {
         color: $body-text;
         max-height: 62px;
         overflow: hidden;
-        margin-top: auto;
+        // Padding bottom is here to stop text being cut off
+        padding-bottom: 2px;
       }
       &__headline {
         color: $body-text;
@@ -380,6 +383,7 @@ div.home, div.channel, div.profile, .card-container {
       position: absolute;
       top: 22px;
       right: 22px;
+      padding-top: 0;
     }
     .card__channel {
       margin: 0;
@@ -464,11 +468,14 @@ div.home, div.channel, div.profile, .card-container {
 
 .channel .col-full {
   .card {
-    cursor: none;
+    cursor: default;
     &__content {
       @include desktop-sm {
         padding: 50px 100px 20px;
       }
+    }
+    &__text {
+      display: block;
     }
     &__content_wrap {
       background-color: transparent;

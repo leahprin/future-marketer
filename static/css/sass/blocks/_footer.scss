@@ -113,6 +113,7 @@
 
   &__additional-links {
     @include transition(color 0.5s ease);
+    @include text-sm($color: $body-text, $font-multiplier: 0.78, $line-height: 1.73);
     @include desktop-sm {
       text-align: right;
       display: flex;
