@@ -461,3 +461,35 @@ div.home, div.channel, div.profile, .card-container {
   display: flex;
   flex-wrap: wrap;
 }
+
+.channel .col-full {
+  .card {
+    cursor: none;
+    &__content {
+      @include desktop-sm {
+        padding: 50px 100px 20px;
+      }
+    }
+    &__content_wrap {
+      background-color: transparent;
+    }
+    &__headline {
+      color: $body-text;
+    }
+    &__button-wrap {
+      .button__follow {
+        padding: 6px 20px 8px 20px;
+        max-width: none;
+        margin-right: 15px;
+        color: $body-text;
+        background-color: white;
+        border: 1px solid #C6D5B8;
+      }
+      .header_actions__share {
+        color: $body-text;
+        background-color: white;
+        border: 1px solid #C6D5B8;
+      }
+    }
+  }
+}

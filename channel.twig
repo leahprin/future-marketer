@@ -5,8 +5,8 @@
     {% set articles = craft.entries.relatedTo(category) %}
 
     <div class="channel">
-        <div class="col-half">
-            <article class="card--channel {{ channelObject[channel|lower] }}">
+        <div class="col-full">
+            <article class="card--channel {{ channelObject[category|lower] }}">
                 <a href="#" class="card card__no-image">
                     <div class="card__overlay">
                         <div class="card__content_wrap">
@@ -15,7 +15,9 @@
                                 <p class="card__text">Vivamus mattis justo eget est molestie, tincidunt bibendum eros cursus. Nam convallis vulputate neque et rhoncus.</p>
                                 <div class="card__button-wrap">
                                     <button class="button button__follow button__follow">Follow</button>
-                                    <button class="button header_actions header_actions__share article__header-item">Share</button>
+                                    <button class="button header_actions header_actions__share article__header-item">Share
+                                        {% include '/_elements/share-popup.twig' %}
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -25,12 +27,6 @@
         </div>
 
         {% if articles|length > 0 %}
-            <div class="col-half">
-                {% include '_elements/card.twig' with {article: articles[0]} %}
-            </div>
-        {% endif %}
-
-        {% if articles|length > 1 %}
             {% include '_elements/_card-layout-thirds.twig' with {articles: articles} %}
         {% endif %}
     </div>

@@ -17,10 +17,11 @@
       color: rgb(65, 83, 90);
     }
     &--reverse {
-      background-color: #D0EDF5;
+      color: $body-text;
+      background-color: white;
+      border: none;
       &:hover, &:active {
-        background-color: white;
-        color: #FFF;
+        color: #D0EDF5;
       }
     }
   }

@@ -105,7 +105,7 @@
         } else {
             $('.share-popup').addClass('active');
             $('.button__share, .header_actions__share').addClass('close-popup')
-            $(document).one('click', '.modal, .share-popup__close, .article', function (e) {
+            $(document).one('click', '.modal, .share-popup__close, .article', '.channel', function (e) {
                 $('.share-popup').removeClass('active');
                 if(!$(e.target).hasClass('button__share') && !$(e.target).hasClass('header_actions__share')) {
                     $('.button__share, .header_actions__share').removeClass('close-popup');

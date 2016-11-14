@@ -9,12 +9,16 @@
       margin-bottom: 30px;
     }
   }
-  &__card-cont
   &__description {
     @include text-md($color: $white);
+    margin-bottom: 20px;
+    display: inline-block;
+    @include desktop-sm {
+      margin-bottom: 0;
+    }
   }
   &__title {
-    margin: auto;
+    margin: auto 0;
     max-width: 558px;
     @include desktop-sm {
       margin: auto 80px auto 130px;
@@ -71,6 +75,7 @@
     position: absolute;
     border-radius: 4px;
     top: 224px;
+    max-width: 340px;
     background-color: $white;
     min-height: 260px;
     width: calc(100% - 30px);
