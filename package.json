@@ -8,6 +8,7 @@
     "url": "https://github.com/belief/CraftCMS-Boilerplate"
   },
   "dependencies": {
+    "browser-sync": "^2.17.6",
     "chalk": "^0.4.0",
     "gulp": "^3.6.0",
     "gulp-autoprefixer": "0.0.7",
@@ -22,10 +23,10 @@
     "gulp-rename": "^1.2.0",
     "gulp-sass": "^2.3.2",
     "gulp-scsslint": "0.0.4",
+    "gulp-sourcemaps": "^1.6.0",
     "gulp-uglify": "^0.2.1",
     "gulp-util": "^2.2.14",
     "map-stream": "^0.1.0",
-    "tiny-lr": "0.0.5",
-    "gulp-sourcemaps": "^1.6.0"
+    "tiny-lr": "0.0.5"
   }
 }

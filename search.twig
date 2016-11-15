@@ -1,4 +1,4 @@
-{%{% extends "layouts/main.twig" %}
+{% extends "layouts/main.twig" %}
 
 {% block content %}
 	{% set query = craft.request.getParam('s') %}
@@ -12,11 +12,7 @@
 	</div>
 	<div class="search__heading">{{ entries|length }} Search result</div>
 
-
 	<div class="search">
-
-
-
 		{% if entries|length %}
 			{% for entry in entries %}
 				<div class="col-quarter">

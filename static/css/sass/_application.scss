@@ -6,16 +6,21 @@
   $background-color: map-get($values, background-color);
   $length: length($sections);
 
-  //Change styling for header
-  .header__navigation-list {
-    li:nth-child(#{$length}n+#{$name}) a:hover {
-         color: $color;
+  .dropdown-menu .footer__navigation-list, .dropdown-menu .header__navigation-list {
+    li.channel-#{$name} a:hover {
+      background-color: $color;
     }
   }
 
-  .footer__navigation-list {
-    li:nth-child(#{$length}n+#{$name}) a:hover {
+  .header__navigation-list, .footer__navigation-list {
+    li.channel-#{$name} a:hover {
       color: $color;
+    }
+  }
+
+  .channel-card.channel-#{$name} {
+    .channel-card__content {
+      background-color: $color;
     }
   }
 
@@ -52,12 +57,10 @@
         //  background-color: $article-image-color;
         //}
       }
-      .button__follow {
+      .button-sm {
         background-color: $color;
-        color: $body-text;
         &:hover, &:active {
           border: 1px solid $color;
-          color: $body-text;
           background-color: $white;
         }
       }
@@ -153,6 +156,26 @@ $contact-image-color: map-get($random-section-four, color);
   &-overlay {
     &:hover {
       cursor: pointer;
+    }
+  }
+}
+
+@each $social-color in $social-colors {
+  $name:  nth($social-color, 1);
+  $color: nth($social-color, 2);
+  i.fa.fa-#{$name} {
+    &:hover {
+      color: $color;
+    }
+  }
+  @if $name == 'facebook' {
+    i.fa.fa-facebook-f:hover {
+      color: $color;
+    }
+  }
+  @if $name == 'youtube' {
+    i.fa.fa-youtube-play:hover {
+      color: $color;
     }
   }
 }

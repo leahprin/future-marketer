@@ -16,8 +16,14 @@ var gulp = require('gulp'),
   rename = require('gulp-rename'),
   livereload = require('gulp-livereload'),
   lr = require('tiny-lr'),
-  server = lr();
+  server = lr(),
+  browserSync = require('browser-sync').create();
 
+// BROWSER SYNC
+livereload({ start: true });
+browserSync.init({
+  proxy: "future.dev"
+});
 
 gulp.task('styles', function(){
   gulp.src('static/css/sass/index.scss')
@@ -43,8 +49,12 @@ gulp.task('styles', function(){
     .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 9', 'opera 12.1', 'ios 6', 'android 4'))
     .pipe(sourcemaps.write())
     .pipe( gulp.dest('static/css') )
+    .pipe(browserSync.stream());
 });
 
+gulp.task('reload', function () {
+  browserSync.reload();
+})
 
 // Do the creep, ahhhhhhh! (http://youtu.be/tLPZmPaHme0?t=7s)
 gulp.task('watch', function() {
@@ -56,7 +66,8 @@ gulp.task('watch', function() {
     }
 
     // Watch .scss files
-    gulp.watch('static/css/sass/**/*.scss', ['styles']);
+    gulp.watch('static/css/sass/**/*.scss', ['styles', 'reload']);
+    gulp.watch("**/*.twig", ['reload']);
 
   });
 

@@ -107,6 +107,7 @@
     max-width: 650px;
     margin-bottom: 22px;
     @include text-sm($font-weight: 700, $color: $white, $font-multiplier: 1.4, $line-height: 1.2, $letter-spacing: -0.014em);
+    padding-bottom: 2px;
   }
   &__text {
     max-width: 680px;
@@ -305,6 +306,12 @@ div.home, div.channel, div.profile, .card-container {
     &__read-time .card__paragraph-icon {
       background-image: url('/static/images/icons/paragraph.svg');
     }
+    .card__channel {
+      color: white;
+      &::after {
+        background-color: white;
+      }
+    }
   }
   .card--social {
     .card__content {
@@ -388,6 +395,7 @@ div.home, div.channel, div.profile, .card-container {
     .card__channel {
       margin: 0;
       padding: 0;
+      color: $white;
       &::after {
         display: none;
       }

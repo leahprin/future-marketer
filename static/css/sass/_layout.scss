@@ -27,7 +27,7 @@
     margin-right: -15px;
 }
 
-div.home, div.channel, div.profile, div.channels {
+div.home, div.channel, div.profile, div.search, div.channels {
     @extend .container;
     display: flex;
     flex-wrap: wrap;
@@ -58,7 +58,7 @@ div.home.additional-articles__wrap {
         width: 1200px;
     }
     @include desktop-lg {
-        width: 1610px;
+        width: 1600px;
     }
     article {
         margin: 15px;

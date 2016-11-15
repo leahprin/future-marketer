@@ -86,8 +86,13 @@
     });
 
 
-    $(document).on('click', '.social-modal__image_container', function (e) {
+
+    $(document).on('click', '.social-modal', function (e) {
         $('.modal').modal('hide');
+    });
+
+    $(document).on('click', '.social-modal__content', function (e) {
+        e.stopPropagation();
     });
 
     $(document).on('click', '.social-modal__video_wrap', function (e) {

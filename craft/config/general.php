@@ -15,7 +15,7 @@ return array(
 
 	'*' => array(
 		'devMode' => true,
-		'siteName' => 'Madeline Theme - Cognitives',
+		'siteName' => 'Future Marketer Theme - Cognitives',
 		'extraAllowedFileExtensions' => 'json',
 		'environmentVariables' => array(
 				'basePath' =>  BASE_PATH,

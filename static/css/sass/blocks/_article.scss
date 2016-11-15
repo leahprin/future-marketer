@@ -1,4 +1,4 @@
-.article {
+.article, .static-page {
   &__body {
     background-color: white;
     margin-right: 10px;
@@ -20,6 +20,9 @@
   @include desktop-sm {
     padding:0;
     max-width: 1030px;
+  }
+  @include desktop-lg {
+    max-width: 1420px;
   }
   &::before {
     display: none;
@@ -87,7 +90,7 @@
       height: 470px;
     }
     @include desktop-lg {
-      width: 1580px;
+      width: 1570px;
       height: 600px;
     }
   }
@@ -140,10 +143,13 @@
       text-align: center;
       margin-top: 18px;
       display: flex;
-      justify-content: space-between;
+      align-items: center;
       @include tablet {
         margin-top: 0;
         text-align: left;
+      }
+      a:first-child {
+        margin-right: 10px;
       }
     }
   }
@@ -200,11 +206,7 @@
 
 .show-comments {
   @extend .button;
-  @extend .header_actions__comments;
-}
-
-.profile__user_image {
-
+  @extend .button__comments;
 }
 
 .profile__author_wrap {

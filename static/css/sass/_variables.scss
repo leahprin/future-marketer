@@ -7,7 +7,7 @@ $header-background: #fff;
 $body-color:        rgb(255, 255, 255);
 $icon-color:        #575757;
 
-$highlight-color:   #36647E;
+$highlight-color:   #D0EDF5;
 $quote-color:       #662d91;
 $hover-color:       $highlight-color;
 $follow-color:      #00a651;
@@ -72,7 +72,7 @@ $sections: (
         )
 );
 
-$cards: (
+$social-colors: (
         facebook:    #3b5998,
         featured:    #15b999,
         google-plus: #e04a32,
@@ -82,11 +82,6 @@ $cards: (
         youtube:     #cc181e,
         vimeo:       #00b3ec,
 );
-
-
-@function color($card_type) {
-  @return map-get($cards, $card_type);
-}
 
 // Grids
 $grid-gutter-width: 20px;

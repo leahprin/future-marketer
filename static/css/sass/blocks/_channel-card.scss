@@ -13,32 +13,41 @@
   &__content_wrap {
     display: flex;
     align-items: center;
+    flex-direction: column;
     width: 100%;
-    padding: 20px 30px 10px;
     position: relative;
     @include transition(background-color 0.4s ease);
-    background-color: rgba(0, 0, 0, 0.4);
     height:100%;
   }
   &__overlay {
     width:100%;
   }
   &__channel-wrap {
-    text-align: center;
+    text-align: left;
+  }
+  &__image {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 1 0 53%;
+    width: 100%;
   }
   &__content {
     flex-direction: column;
     display: flex;
     height: 100%;
-    justify-content: center;
-    text-align: center;
+    justify-content: space-between;
+    text-align: left;
+    width: 100%;
+    padding: 15px 20px 20px;
   }
   &__channel {
     @extend .card__channel;
     line-height: 1;
   }
   &__headline {
-    @include text-md($font-weight:700, $color: $white, $line-height: 1.2, $font-multiplier: 1.11);
-    font-family: $heading-font-family;
+    @include text-md($font-weight:600, $color: $body-text, $line-height: 1.2, $font-multiplier: 1.11);
+    max-height: 46px;
+    overflow: hidden;
   }
 }

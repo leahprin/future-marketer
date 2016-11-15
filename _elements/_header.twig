@@ -105,10 +105,16 @@
                                     {% set entry = entries[i] %}
                                     <li class="header__navigation-item--{{ entry.title|lower }} {{ channelObject[entry.title|lower] }}"><a href="{{ entry.url }}" class="">{{ entry.title }}</a></li>
                                 {% endfor %}
+                                <li class="header__navigation-item"><a href="/blog/dev" class="">Dev blog</a></li>
                             </ul>
                         </li>
-
                     {% endif %}
+                </ul>
+                <ul class="header__navigation-list header__navigation-list--right">
+                    {% set singles = craft.entries('singles') %}
+                    {% for single in singles if single.displayInNav %}
+                        <li class="header__navigation-item"><a href="{{ single.url }}" class="header__navigation-link">{{ single.title }}</a></li>
+                    {% endfor %}
                 </ul>
             </div>
         </div>
@@ -126,7 +132,15 @@
                         {{ entry.title }}
                     </a>
                 </li>
-             {% endfor %}
+            {% endfor %}
+            {% set singles = craft.entries('singles') %}
+            {% for single in singles if single.displayInNav %}
+                <li class="side-navigation__item">
+                    <a href="{{ single.url }}" class="side-navigation__link">
+                        {{ single.title }}
+                    </a>
+                </li>
+            {% endfor %}
         </ul>
     </div>
 </header>
